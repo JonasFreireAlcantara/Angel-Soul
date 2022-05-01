@@ -10,9 +10,7 @@ public class FighterControllerBase : MonoBehaviour
 
     public float speed;
     public float jumpForce;
-
     protected Rigidbody2D rigidbody2D;
-
     protected bool isGrounded = false;
 
 
@@ -26,7 +24,6 @@ public class FighterControllerBase : MonoBehaviour
     {
         if (collision2D.gameObject.CompareTag(Tag.GROUND))
         {
-            Debug.Log("Oncollision enter: " + Time.frameCount);
             isGrounded = false;
         }
     }
@@ -40,9 +37,8 @@ public class FighterControllerBase : MonoBehaviour
     }
 
     protected void Move(float direction)
-    {
-        Vector3 movement = new Vector3(direction, 0f, 0f);
-        transform.position += movement * Time.deltaTime * speed;
+    { 
+        rigidbody2D.velocity = new Vector2(direction * speed * Time.deltaTime, rigidbody2D.velocity.y);
     }
 
     protected void Jump(ForceMode2D forceMode2D = ForceMode2D.Impulse)
