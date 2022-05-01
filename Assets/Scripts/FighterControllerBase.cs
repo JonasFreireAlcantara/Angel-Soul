@@ -41,7 +41,8 @@ public class FighterControllerBase : MonoBehaviour
 
     protected void Move(float direction)
     {
-        rigidbody2D.velocity = new Vector2(direction * speed * Time.deltaTime, rigidbody2D.velocity.y);
+        Vector3 movement = new Vector3(direction, 0f, 0f);
+        transform.position += movement * Time.deltaTime * speed;
     }
 
     protected void Jump(ForceMode2D forceMode2D = ForceMode2D.Impulse)
