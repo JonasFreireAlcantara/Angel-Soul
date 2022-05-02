@@ -15,9 +15,16 @@ public class PlayerController : MonoBehaviour
 
     //Controle de Ataques
     public GameObject sword;
-    private bool originalPosition = true;
     private bool canAttack = true;
     private float lastAttack = -1;
+
+    //Controle da Magia
+    public GameObject spellLaunchPoint;
+    public GameObject spellOne;
+    private bool spellOneEnable = true;
+    private float lastSpellOne = -1;
+    private float direction = 1f;
+    
 
     // Start is called before the first frame update
     void Start()
@@ -33,6 +40,7 @@ public class PlayerController : MonoBehaviour
             Move();
             Jump();
             Hit();
+            SpellOne();
         }
     }
 
@@ -42,10 +50,12 @@ public class PlayerController : MonoBehaviour
         if(Input.GetAxis("Horizontal") > 0f){
             anim.SetBool("move",true);
             transform.eulerAngles = new Vector3(0f,0f,0f);
+            direction = 1f;
         }
         if(Input.GetAxis("Horizontal") < 0f){
             anim.SetBool("move",true);
             transform.eulerAngles = new Vector3(0f,180f,0f);
+            direction = -1f;
         }
         if(Input.GetAxis("Horizontal") == 0f){
             anim.SetBool("move",false);
@@ -68,20 +78,33 @@ public class PlayerController : MonoBehaviour
                 anim.SetBool("attack", true);
                 canAttack = false;
                 lastAttack = Time.time;
-                originalPosition = false;
             }
         }
         else{
             if(Time.time >= lastAttack + 0.3f){
                 canAttack = true;
             }
-            if(!originalPosition && Time.time >= lastAttack + 0.15f){
+            if(Time.time >= lastAttack + 0.15f){
                 anim.SetBool("attack",false);
-                originalPosition = true;
             }
                 
         }
         
+    }
+
+    private void SpellOne(){
+        if(spellOneEnable){
+            if(Input.GetKeyDown(KeyCode.I)){
+                spellLaunchPoint.GetComponent<SpellLauncher>().Launch(spellOne, spellLaunchPoint, direction);
+                spellOneEnable = false;
+                lastSpellOne = Time.time;
+            }
+        }
+        else{
+            if(Time.time >= lastSpellOne + 0.75f){
+                spellOneEnable = true;
+            }
+        }
     }
 
     private void OnCollisionEnter2D(Collision2D collision2D)
