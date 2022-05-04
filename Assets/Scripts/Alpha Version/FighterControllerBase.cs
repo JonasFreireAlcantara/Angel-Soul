@@ -7,28 +7,31 @@ using UnityEngine;
  */
 public class FighterControllerBase : MonoBehaviour
 {
+    // Controle de elementos de vida
+    public float life;
+    public float spell;
 
+    // Movimentacao
     public float speed;
     public float jumpForce;
-    protected Rigidbody2D rigidbody2D;
+    protected float direction = 1f;
     protected bool isGrounded = false;
 
+    protected Rigidbody2D rigidbody2D;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        rigidbody2D = GetComponent<Rigidbody2D>();
+    // Health bar
+    public ProgressBar healthBar;
+    // Spell bar
+    public ProgressBar spellBar;
+
+    public void InitializeHealthAndSpellBars() {
+        healthBar.SetMaxValue(life);
+        healthBar.SetValue(life);
+        spellBar.SetMaxValue(spell);
+        spellBar.SetValue(spell);
     }
 
-    void OnCollisionEnter2D(Collision2D collision2D)
-    {
-        if (collision2D.gameObject.CompareTag(Tag.GROUND))
-        {
-            isGrounded = false;
-        }
-    }
-
-    void OnCollisionExit2D(Collision2D collision2D)
+    protected void OnCollisionEnter2D(Collision2D collision2D)
     {
         if (collision2D.gameObject.CompareTag(Tag.GROUND))
         {
@@ -36,13 +39,31 @@ public class FighterControllerBase : MonoBehaviour
         }
     }
 
+    protected void OnCollisionExit2D(Collision2D collision2D)
+    {
+        if (collision2D.gameObject.CompareTag(Tag.GROUND))
+        {
+            isGrounded = false;
+        }
+    }
+
     protected void Move(float direction)
-    { 
+    {
         rigidbody2D.velocity = new Vector2(direction * speed * Time.deltaTime, rigidbody2D.velocity.y);
     }
 
     protected void Jump(ForceMode2D forceMode2D = ForceMode2D.Impulse)
     {
         rigidbody2D.AddForce(Vector2.up * jumpForce, forceMode2D);
+    }
+
+    protected void DecreaseLife(float value) {
+        life -= value;
+        healthBar.SetValue(life);
+    }
+
+    protected void DecreaseSpell(float value) {
+        spell -= value;
+        spellBar.SetValue(spell);
     }
 }

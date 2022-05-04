@@ -2,16 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerController : MonoBehaviour
+public class PlayerController : FighterControllerBase
 {   
-    //Controle de movimentação
-    public float speed;
-    public float jumpForce;
-    private bool isGrounded;
-    private Rigidbody2D rigidbody2D;
-    
     //Controle de animação
-    private Animator anim;
+    public Animator anim;
 
     //Controle de Ataques
     public GameObject sword;
@@ -23,7 +17,7 @@ public class PlayerController : MonoBehaviour
     public GameObject spellOne;
     private bool spellOneEnable = true;
     private float lastSpellOne = -1;
-    private float direction = 1f;
+    // private float direction = 1f;
     
 
     // Start is called before the first frame update
@@ -31,6 +25,8 @@ public class PlayerController : MonoBehaviour
     {
         rigidbody2D = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
+
+        InitializeHealthAndSpellBars();
     }
 
     // Update is called once per frame
@@ -45,20 +41,18 @@ public class PlayerController : MonoBehaviour
     }
 
     private void Move(){
-        rigidbody2D.velocity = new Vector2(Input.GetAxis("Horizontal") * speed * Time.deltaTime, rigidbody2D.velocity.y);
+        float horizontalInput = Input.GetAxis("Horizontal");
 
-        if(Input.GetAxis("Horizontal") > 0f){
-            anim.SetBool("move",true);
+        rigidbody2D.velocity = new Vector2(horizontalInput * speed * Time.deltaTime, rigidbody2D.velocity.y);
+        anim.SetBool("move", Mathf.Abs(horizontalInput) > 0f);
+
+        if(horizontalInput > 0f){
             transform.eulerAngles = new Vector3(0f,0f,0f);
             direction = 1f;
         }
-        if(Input.GetAxis("Horizontal") < 0f){
-            anim.SetBool("move",true);
+        if(horizontalInput < 0f){
             transform.eulerAngles = new Vector3(0f,180f,0f);
             direction = -1f;
-        }
-        if(Input.GetAxis("Horizontal") == 0f){
-            anim.SetBool("move",false);
         }
     }
 
@@ -67,27 +61,28 @@ public class PlayerController : MonoBehaviour
         return Input.GetKeyDown(KeyCode.Space) && isGrounded;
     }
 
-    protected void Jump(ForceMode2D forceMode2D = ForceMode2D.Impulse){
-        if(CanJump())
-            rigidbody2D.AddForce(Vector2.up * jumpForce, forceMode2D);
+    private new void Jump(ForceMode2D forceMode2D = ForceMode2D.Impulse){
+        if(CanJump()) {
+            base.Jump(forceMode2D);
+        }
     }
 
-    private void Hit(){
-        if(canAttack){
+    private void Hit() {
+        if(canAttack) {
             if(Input.GetKeyDown(KeyCode.S)){
                 anim.SetBool("attack", true);
                 canAttack = false;
                 lastAttack = Time.time;
+                DecreaseSpell(4f);
             }
         }
-        else{
-            if(Time.time >= lastAttack + 0.3f){
+        else {
+            if(Time.time >= lastAttack + 0.3f) {
                 canAttack = true;
             }
-            if(Time.time >= lastAttack + 0.15f){
-                anim.SetBool("attack",false);
+            if(Time.time >= lastAttack + 0.15f) {
+                anim.SetBool("attack", false);
             }
-                
         }
         
     }
@@ -98,28 +93,14 @@ public class PlayerController : MonoBehaviour
                 spellLaunchPoint.GetComponent<SpellLauncher>().Launch(spellOne, spellLaunchPoint, direction);
                 spellOneEnable = false;
                 lastSpellOne = Time.time;
+                DecreaseSpell(10f);
+                DecreaseLife(5f);
             }
         }
         else{
             if(Time.time >= lastSpellOne + 0.75f){
                 spellOneEnable = true;
             }
-        }
-    }
-
-    private void OnCollisionEnter2D(Collision2D collision2D)
-    {
-        if (collision2D.gameObject.CompareTag(Tag.GROUND))
-        {
-            isGrounded = true;
-        }
-    }
-
-    private void OnCollisionExit2D(Collision2D collision2D)
-    {
-        if (collision2D.gameObject.CompareTag(Tag.GROUND))
-        {
-            isGrounded = false;
         }
     }
 

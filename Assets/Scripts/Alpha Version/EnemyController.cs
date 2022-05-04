@@ -8,6 +8,8 @@ public class EnemyController : FighterControllerBase
     void Start()
     {
         rigidbody2D = GetComponent<Rigidbody2D>();
+
+        InitializeHealthAndSpellBars();
     }
 
     // Update is called once per frame
