@@ -1,7 +1,43 @@
 fileFormatVersion: 2
 guid: f29e8a15a3a0cb849a671a78a46f669f
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 4822546180666895497
+    second: Cassiel-JUMP-2_0
+  - first:
+      213: -9200257076639509601
+    second: Cassiel-JUMP-2_1
+  - first:
+      213: 177479210130615468
+    second: Cassiel-JUMP-2_2
+  - first:
+      213: -2788522430779358336
+    second: Cassiel-JUMP-2_3
+  - first:
+      213: -177681298038338877
+    second: Cassiel-JUMP-2_4
+  - first:
+      213: -6094955130383506814
+    second: Cassiel-JUMP-2_5
+  - first:
+      213: -6227608237234499949
+    second: Cassiel-JUMP-2_6
+  - first:
+      213: -1288608592367084918
+    second: Cassiel-JUMP-2_7
+  - first:
+      213: 6573557641244791960
+    second: Cassiel-JUMP-2_8
+  - first:
+      213: -487551810547601683
+    second: Cassiel-JUMP-2_9
+  - first:
+      213: 3358045129715738973
+    second: Cassiel-JUMP-2_10
+  - first:
+      213: 1444325613703878353
+    second: Cassiel-JUMP-2_11
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -32,7 +68,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -41,12 +77,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -65,10 +101,34 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 8192
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -77,7 +137,259 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Cassiel-JUMP-2_0
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 93
+        width: 20
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98c219b43302de240800000000000000
+      internalID: 4822546180666895497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cassiel-JUMP-2_1
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 93
+        width: 30
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f93d0a01fee125080800000000000000
+      internalID: -9200257076639509601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cassiel-JUMP-2_2
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 93
+        width: 44
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cac2adab668867200800000000000000
+      internalID: 177479210130615468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cassiel-JUMP-2_3
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 93
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08300399f9d2d49d0800000000000000
+      internalID: -2788522430779358336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cassiel-JUMP-2_4
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 94
+        width: 45
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cac1330dcfb88df0800000000000000
+      internalID: -177681298038338877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cassiel-JUMP-2_5
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 94
+        width: 43
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 282eb83f99e5a6ba0800000000000000
+      internalID: -6094955130383506814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cassiel-JUMP-2_6
+      rect:
+        serializedVersion: 2
+        x: 754
+        y: 94
+        width: 40
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39e4753bd471399a0800000000000000
+      internalID: -6227608237234499949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cassiel-JUMP-2_7
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 94
+        width: 36
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8a91750051fd1ee0800000000000000
+      internalID: -1288608592367084918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cassiel-JUMP-2_8
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 11
+        width: 31
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89453f4b8d7f93b50800000000000000
+      internalID: 6573557641244791960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cassiel-JUMP-2_9
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 11
+        width: 30
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dee26b2263edb39f0800000000000000
+      internalID: -487551810547601683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cassiel-JUMP-2_10
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 11
+        width: 24
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d59ef68f04c2a9e20800000000000000
+      internalID: 3358045129715738973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cassiel-JUMP-2_11
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 11
+        width: 23
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d651d84e764b0410800000000000000
+      internalID: 1444325613703878353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

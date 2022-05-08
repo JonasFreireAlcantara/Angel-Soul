@@ -1,7 +1,55 @@
 fileFormatVersion: 2
 guid: 4a1c863feac36a5418058742c06b5c7d
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -8542068680405598489
+    second: Cassiel-WALK-1_0
+  - first:
+      213: 2069180870826241782
+    second: Cassiel-WALK-1_1
+  - first:
+      213: -8908358183964959158
+    second: Cassiel-WALK-1_2
+  - first:
+      213: -7615568037771750023
+    second: Cassiel-WALK-1_3
+  - first:
+      213: -2740712245870334636
+    second: Cassiel-WALK-1_4
+  - first:
+      213: -5769378311412704842
+    second: Cassiel-WALK-1_5
+  - first:
+      213: -6022633974292114591
+    second: Cassiel-WALK-1_6
+  - first:
+      213: 1704832365584842793
+    second: Cassiel-WALK-1_7
+  - first:
+      213: -8077530537563531157
+    second: Cassiel-WALK-1_8
+  - first:
+      213: 2842935450840446795
+    second: Cassiel-WALK-1_9
+  - first:
+      213: 7344274676554784288
+    second: Cassiel-WALK-1_10
+  - first:
+      213: 3771447519629283719
+    second: Cassiel-WALK-1_11
+  - first:
+      213: 4473043614916525751
+    second: Cassiel-WALK-1_12
+  - first:
+      213: -8435768010540537161
+    second: Cassiel-WALK-1_13
+  - first:
+      213: -7619638996268400357
+    second: Cassiel-WALK-1_14
+  - first:
+      213: 4757152307709996064
+    second: Cassiel-WALK-1_15
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -32,7 +80,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -41,12 +89,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -65,10 +113,34 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 8192
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -77,7 +149,343 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Cassiel-WALK-1_0
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 2
+        width: 32
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ee3f610bc9747980800000000000000
+      internalID: -8542068680405598489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cassiel-WALK-1_1
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 2
+        width: 30
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fea1adf90537bc10800000000000000
+      internalID: 2069180870826241782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cassiel-WALK-1_2
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 2
+        width: 29
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4e13d02e672f5480800000000000000
+      internalID: -8908358183964959158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cassiel-WALK-1_3
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 2
+        width: 29
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 975dbc9f731105690800000000000000
+      internalID: -7615568037771750023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cassiel-WALK-1_4
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 2
+        width: 29
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45de559bbb807f9d0800000000000000
+      internalID: -2740712245870334636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cassiel-WALK-1_5
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 2
+        width: 28
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b917654efc0fefa0800000000000000
+      internalID: -5769378311412704842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cassiel-WALK-1_6
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 2
+        width: 27
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1639e164f4e4b6ca0800000000000000
+      internalID: -6022633974292114591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cassiel-WALK-1_7
+      rect:
+        serializedVersion: 2
+        x: 866
+        y: 2
+        width: 26
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92006400108c8a710800000000000000
+      internalID: 1704832365584842793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cassiel-WALK-1_8
+      rect:
+        serializedVersion: 2
+        x: 984
+        y: 2
+        width: 27
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b68d72ec5c8d6ef80800000000000000
+      internalID: -8077530537563531157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cassiel-WALK-1_9
+      rect:
+        serializedVersion: 2
+        x: 1096
+        y: 2
+        width: 34
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b47b5b2eab2247720800000000000000
+      internalID: 2842935450840446795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cassiel-WALK-1_10
+      rect:
+        serializedVersion: 2
+        x: 1210
+        y: 2
+        width: 39
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02ed1fc18ea1ce560800000000000000
+      internalID: 7344274676554784288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cassiel-WALK-1_11
+      rect:
+        serializedVersion: 2
+        x: 1331
+        y: 2
+        width: 37
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7811880898fd65430800000000000000
+      internalID: 3771447519629283719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cassiel-WALK-1_12
+      rect:
+        serializedVersion: 2
+        x: 1448
+        y: 2
+        width: 39
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bebde3f771731e30800000000000000
+      internalID: 4473043614916525751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cassiel-WALK-1_13
+      rect:
+        serializedVersion: 2
+        x: 1569
+        y: 2
+        width: 37
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7baa02460b12eea80800000000000000
+      internalID: -8435768010540537161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cassiel-WALK-1_14
+      rect:
+        serializedVersion: 2
+        x: 1689
+        y: 2
+        width: 39
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1145b614ba914690800000000000000
+      internalID: -7619638996268400357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cassiel-WALK-1_15
+      rect:
+        serializedVersion: 2
+        x: 1810
+        y: 2
+        width: 34
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02ceb73c1dcc40240800000000000000
+      internalID: 4757152307709996064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
