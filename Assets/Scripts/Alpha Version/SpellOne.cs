@@ -30,7 +30,9 @@ public class SpellOne : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D other) {
         if(other.gameObject.CompareTag(Tag.ENEMY)){
+            other.gameObject.GetComponent<FighterControllerBase>().DecreaseLife(spellDamage);
             Destroy(this.gameObject);
+
         }
 
     }

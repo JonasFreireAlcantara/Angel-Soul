@@ -73,7 +73,7 @@ public class CassielController : FighterControllerBase
                 anim.SetBool("attack", true);
                 canAttack = false;
                 lastAttack = Time.time;
-                DecreaseSpell(4f);
+                
             }
         }
         else {
@@ -89,12 +89,11 @@ public class CassielController : FighterControllerBase
 
     private void SpellOne(){
         if(spellOneEnable){
-            if(Input.GetKeyDown(KeyCode.I)){
+            if(Input.GetKeyDown(KeyCode.I) && GetSpellPoints() >= 5){
                 spellLaunchPoint.GetComponent<SpellLauncher>().Launch(spellOne, spellLaunchPoint, direction);
                 spellOneEnable = false;
                 lastSpellOne = Time.time;
-                DecreaseSpell(10f);
-                DecreaseLife(5f);
+                DecreaseSpell(5f);
             }
         }
         else{

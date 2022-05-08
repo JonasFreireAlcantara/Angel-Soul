@@ -16,7 +16,7 @@ public class PauseMenu : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Escape))
+        if (Input.GetKeyDown(KeyCode.Escape) && GameObject.FindGameObjectWithTag(Tag.PLAYER).GetComponent<FighterControllerBase>().life > 0)
         {
             if (gameIsPaused)
             {

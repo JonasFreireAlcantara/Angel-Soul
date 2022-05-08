@@ -42,7 +42,7 @@ public class FighterControllerBase : MonoBehaviour
 
     protected void OnCollisionExit2D(Collision2D collision2D)
     {
-        if (collision2D.gameObject.CompareTag(Tag.GROUND))
+        if (collision2D.gameObject.CompareTag(Tag.GROUND) || collision2D.gameObject.CompareTag(Tag.ENEMY))
         {
             isGrounded = false;
         }
@@ -67,4 +67,14 @@ public class FighterControllerBase : MonoBehaviour
         spell -= value;
         spellBar.SetValue(spell);
     }
+
+    public float GetHealthPoints(){
+        return healthBar.GetValue();
+    }
+
+    public float GetSpellPoints(){
+        return spellBar.GetValue();
+    }
+
+    
 }
