@@ -29,9 +29,12 @@ public class MamonWalkAnimation : StateMachineBehaviour
 
    private void WalkTowardPlayer()
    {
-      Vector2 target = new Vector2(playerTransform.position.x, rigidbody2D.position.y);
-      Vector2 newPosition = Vector2.MoveTowards(rigidbody2D.position, target, mamonController.speed * Time.fixedDeltaTime);
-      rigidbody2D.MovePosition(newPosition);
+      if(Vector2.Distance(playerTransform.position, rigidbody2D.position) > 3){
+         Vector2 target = new Vector2(playerTransform.position.x, rigidbody2D.position.y);
+         Vector2 newPosition = Vector2.MoveTowards(rigidbody2D.position, target, mamonController.speed * Time.fixedDeltaTime);
+         rigidbody2D.MovePosition(newPosition);
+      }
+      
    }
 
 }

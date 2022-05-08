@@ -34,7 +34,7 @@ public class FighterControllerBase : MonoBehaviour
 
     protected void OnCollisionEnter2D(Collision2D collision2D)
     {
-        if (collision2D.gameObject.CompareTag(Tag.GROUND))
+        if (collision2D.gameObject.CompareTag(Tag.GROUND) || collision2D.gameObject.CompareTag(Tag.ENEMY))
         {
             isGrounded = true;
         }

@@ -5,6 +5,8 @@ using UnityEngine;
 public class MamonController : EnemyControllerBase
 {
     public float swordAttackRange;
+    private float lastAttack = -1;
+    private bool canAttack = true;
     public Transform swordAttackPoint;
     public LayerMask playerLayer;
 
@@ -30,19 +32,29 @@ public class MamonController : EnemyControllerBase
 
     private bool CanJump()
     {
-        return !isGrounded;
+        return isGrounded;
     }
 
     public void SwordAttack()
     {
-        animator.SetTrigger("Attack");
+        if(canAttack){
+            animator.SetTrigger("Attack");
 
-        Collider2D[] hitPlayers = Physics2D.OverlapCircleAll(swordAttackPoint.position, swordAttackRange, playerLayer);
+            Collider2D[] hitPlayers = Physics2D.OverlapCircleAll(swordAttackPoint.position, swordAttackRange, playerLayer);
 
-        foreach(Collider2D player in hitPlayers)
-        {
-            player.GetComponent<CassielController>().DecreaseLife(20f);
+            foreach(Collider2D player in hitPlayers)
+            {
+                player.GetComponent<CassielController>().DecreaseLife(20f);
+            }
+            
+            canAttack = false;
+            lastAttack = Time.time;
         }
+        else {
+            if(Time.time >= lastAttack + 1f)
+                canAttack = true;
+        }
+        
     }
 
     public bool IsPlayerInsideSwordAttackRange()
