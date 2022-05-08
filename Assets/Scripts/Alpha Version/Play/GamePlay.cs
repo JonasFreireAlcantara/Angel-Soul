@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class GamePlay : MonoBehaviour
 {
-    public PlayerController player;
+    public CassielController player;
     public GameObject gameOverMenu;
 
     public void Update()

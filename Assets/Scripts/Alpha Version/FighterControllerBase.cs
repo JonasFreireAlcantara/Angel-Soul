@@ -18,6 +18,7 @@ public class FighterControllerBase : MonoBehaviour
     protected bool isGrounded = false;
 
     protected Rigidbody2D rigidbody2D;
+    protected Animator animator;
 
     // Health bar
     public ProgressBar healthBar;
@@ -57,12 +58,12 @@ public class FighterControllerBase : MonoBehaviour
         rigidbody2D.AddForce(Vector2.up * jumpForce, forceMode2D);
     }
 
-    protected void DecreaseLife(float value) {
+    public void DecreaseLife(float value) {
         life -= value;
         healthBar.SetValue(life);
     }
 
-    protected void DecreaseSpell(float value) {
+    public void DecreaseSpell(float value) {
         spell -= value;
         spellBar.SetValue(spell);
     }

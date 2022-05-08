@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerController : FighterControllerBase
+public class CassielController : FighterControllerBase
 {   
     //Controle de animação
     public Animator anim;
