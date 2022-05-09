@@ -1,7 +1,61 @@
 fileFormatVersion: 2
 guid: 1479df11d0c7f5f4b962d6067620c62d
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 4637760673444494619
+    second: Cassiel_ATK-SWORD-1_0
+  - first:
+      213: 8206197765456309245
+    second: Cassiel_ATK-SWORD-1_1
+  - first:
+      213: 4252014155486104581
+    second: Cassiel_ATK-SWORD-1_2
+  - first:
+      213: 6198055466422997494
+    second: Cassiel_ATK-SWORD-1_3
+  - first:
+      213: -6873622857050074399
+    second: Cassiel_ATK-SWORD-1_4
+  - first:
+      213: 683794130005496747
+    second: Cassiel_ATK-SWORD-1_5
+  - first:
+      213: 423740511837084310
+    second: Cassiel_ATK-SWORD-1_6
+  - first:
+      213: 1039377282924407541
+    second: Cassiel_ATK-SWORD-1_8
+  - first:
+      213: -8367902682306071049
+    second: Cassiel_ATK-SWORD-1_10
+  - first:
+      213: 877246198150958398
+    second: Cassiel_ATK-SWORD-1_12
+  - first:
+      213: 3096169095799227879
+    second: Cassiel_ATK-SWORD-1_13
+  - first:
+      213: -7389956842439983627
+    second: Cassiel_ATK-SWORD-1_14
+  - first:
+      213: 4181924627498412518
+    second: Cassiel_ATK-SWORD-1_15
+  - first:
+      213: 267983800624405565
+    second: Cassiel_ATK-SWORD-1_16
+  - first:
+      213: 2364022985498284688
+    second: Cassiel_ATK-SWORD-1_17
+  - first:
+      213: 1229887032195272613
+    second: Cassiel_ATK-SWORD-1_18
+  - first:
+      213: 6770125481337550173
+    second: Cassiel_ATK-SWORD-1_19
+  - first:
+      213: -8361562663009989775
+    second: Cassiel_ATK-SWORD-1_20
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -32,7 +86,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -41,7 +95,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -65,10 +119,22 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 8192
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -77,7 +143,385 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Cassiel_ATK-SWORD-1_0
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 3
+        width: 41
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1d7fe5b2c2ac5040800000000000000
+      internalID: 4637760673444494619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cassiel_ATK-SWORD-1_1
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 3
+        width: 96
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfba0aea36542e170800000000000000
+      internalID: 8206197765456309245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cassiel_ATK-SWORD-1_2
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 3
+        width: 96
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50c8ea5a850320b30800000000000000
+      internalID: 4252014155486104581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cassiel_ATK-SWORD-1_3
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 3
+        width: 93
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f19f46ab9ae30650800000000000000
+      internalID: 6198055466422997494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cassiel_ATK-SWORD-1_4
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 3
+        width: 71
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e25685fd6cfb90a0800000000000000
+      internalID: -6873622857050074399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cassiel_ATK-SWORD-1_5
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 3
+        width: 73
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba3997a63235d7900800000000000000
+      internalID: 683794130005496747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cassiel_ATK-SWORD-1_6
+      rect:
+        serializedVersion: 2
+        x: 738
+        y: 3
+        width: 70
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69addfc10cd61e500800000000000000
+      internalID: 423740511837084310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cassiel_ATK-SWORD-1_8
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 3
+        width: 63
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fae158c12c9c6e00800000000000000
+      internalID: 1039377282924407541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cassiel_ATK-SWORD-1_10
+      rect:
+        serializedVersion: 2
+        x: 979
+        y: 3
+        width: 60
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f5bb1278dc3fdb80800000000000000
+      internalID: -8367902682306071049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cassiel_ATK-SWORD-1_12
+      rect:
+        serializedVersion: 2
+        x: 1098
+        y: 3
+        width: 54
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3d8955f4ca9c2c00800000000000000
+      internalID: 877246198150958398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cassiel_ATK-SWORD-1_13
+      rect:
+        serializedVersion: 2
+        x: 1217
+        y: 3
+        width: 40
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e5c7af636dc7fa20800000000000000
+      internalID: 3096169095799227879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cassiel_ATK-SWORD-1_14
+      rect:
+        serializedVersion: 2
+        x: 1335
+        y: 3
+        width: 41
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fdb5ecc769917990800000000000000
+      internalID: -7389956842439983627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cassiel_ATK-SWORD-1_15
+      rect:
+        serializedVersion: 2
+        x: 1454
+        y: 3
+        width: 41
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e9208bba4e290a30800000000000000
+      internalID: 4181924627498412518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cassiel_ATK-SWORD-1_16
+      rect:
+        serializedVersion: 2
+        x: 1584
+        y: 3
+        width: 30
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3cd6c9c8d118b300800000000000000
+      internalID: 267983800624405565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cassiel_ATK-SWORD-1_17
+      rect:
+        serializedVersion: 2
+        x: 1709
+        y: 3
+        width: 24
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 092db735162bec020800000000000000
+      internalID: 2364022985498284688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cassiel_ATK-SWORD-1_18
+      rect:
+        serializedVersion: 2
+        x: 1828
+        y: 3
+        width: 23
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5afcbd35dbf611110800000000000000
+      internalID: 1229887032195272613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cassiel_ATK-SWORD-1_19
+      rect:
+        serializedVersion: 2
+        x: 1947
+        y: 3
+        width: 21
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d55f1ff614154fd50800000000000000
+      internalID: 6770125481337550173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cassiel_ATK-SWORD-1_20
+      rect:
+        serializedVersion: 2
+        x: 2064
+        y: 3
+        width: 22
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17bce183f03c5fb80800000000000000
+      internalID: -8361562663009989775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
