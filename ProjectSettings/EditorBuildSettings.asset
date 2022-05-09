@@ -12,9 +12,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Angel Soul/Menu Inicial.unity
     guid: 7b456d6b5b5dd624b8a5cb7f1e64f82c
   - enabled: 1
-    path: Assets/Scenes/Angel Soul/Mammon_Stage.unity
-    guid: 2cb951e9aa1adb64fb74419e41f67e00
-  - enabled: 1
     path: Assets/Scenes/Angel Soul/Intro.unity
     guid: 4cd0dc0b337e5ff47aa4d1f637b35ca4
+  - enabled: 1
+    path: Assets/Scenes/Angel Soul/Mammon_Stage.unity
+    guid: 2cb951e9aa1adb64fb74419e41f67e00
   m_configObjects: {}
