@@ -4,9 +4,6 @@ using UnityEngine;
 
 public class CassielController : FighterControllerBase
 {   
-    //Controle de animação
-    public Animator anim;
-
     //Controle de Ataques
     public GameObject sword;
     private bool canAttack = true;
@@ -24,7 +21,7 @@ public class CassielController : FighterControllerBase
     void Start()
     {
         rigidbody2D = GetComponent<Rigidbody2D>();
-        anim = GetComponent<Animator>();
+        // animator = GetComponent<Animator>();
 
         InitializeHealthAndSpellBars();
     }
@@ -44,7 +41,7 @@ public class CassielController : FighterControllerBase
         float horizontalInput = Input.GetAxis("Horizontal");
 
         rigidbody2D.velocity = new Vector2(horizontalInput * speed * Time.deltaTime, rigidbody2D.velocity.y);
-        anim.SetBool("move", Mathf.Abs(horizontalInput) > 0f);
+        animator.SetBool("move", Mathf.Abs(horizontalInput) > 0f);
 
         if(horizontalInput > 0f){
             transform.eulerAngles = new Vector3(0f,0f,0f);
@@ -70,7 +67,7 @@ public class CassielController : FighterControllerBase
     private void Hit() {
         if(canAttack) {
             if(Input.GetKeyDown(KeyCode.S)){
-                anim.SetBool("attack", true);
+                animator.SetBool("attack", true);
                 canAttack = false;
                 lastAttack = Time.time;
                 
@@ -81,7 +78,7 @@ public class CassielController : FighterControllerBase
                 canAttack = true;
             }
             if(Time.time >= lastAttack + 0.15f) {
-                anim.SetBool("attack", false);
+                animator.SetBool("attack", false);
             }
         }
         

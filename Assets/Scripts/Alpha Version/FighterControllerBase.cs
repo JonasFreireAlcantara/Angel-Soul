@@ -18,7 +18,7 @@ public class FighterControllerBase : MonoBehaviour
     protected bool isGrounded = false;
 
     protected Rigidbody2D rigidbody2D;
-    protected Animator animator;
+    public Animator animator;
 
     // Health bar
     public ProgressBar healthBar;
@@ -37,6 +37,8 @@ public class FighterControllerBase : MonoBehaviour
         if (collision2D.gameObject.CompareTag(Tag.GROUND) || collision2D.gameObject.CompareTag(Tag.ENEMY))
         {
             isGrounded = true;
+            this.animator.SetTrigger("landed");
+            this.animator.ResetTrigger("jump");
         }
     }
 
@@ -45,6 +47,8 @@ public class FighterControllerBase : MonoBehaviour
         if (collision2D.gameObject.CompareTag(Tag.GROUND) || collision2D.gameObject.CompareTag(Tag.ENEMY))
         {
             isGrounded = false;
+            animator.SetTrigger("jump");
+            animator.ResetTrigger("landed");
         }
     }
 
