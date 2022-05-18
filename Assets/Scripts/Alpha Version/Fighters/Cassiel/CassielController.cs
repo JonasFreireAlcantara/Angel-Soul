@@ -15,7 +15,7 @@ public class CassielController : FighterControllerBase
     private bool spellOneEnable = true;
     private float lastSpellOne = -1;
     // private float direction = 1f;
-    
+    public float Speed;
 
     // Start is called before the first frame update
     void Start()
@@ -30,26 +30,30 @@ public class CassielController : FighterControllerBase
     void Update()
     {
         if(Time.timeScale != 0){
-            Move();
-            Jump();
-            Hit();
-            SpellOne();
-        }
+             Move();
+             Jump();
+             Hit();
+             SpellOne();
+         }
     }
 
     private void Move(){
+
+        /*Vector3 movement = new Vector3(Input.GetAxis("Horizontal"), 0f, 0f);
+        transform.position += movement * Time.deltaTime * Speed; */
         float horizontalInput = Input.GetAxis("Horizontal");
 
         rigidbody2D.velocity = new Vector2(horizontalInput * speed * Time.deltaTime, rigidbody2D.velocity.y);
+        //Vector3 movement = new Vector3(Input.GetAxis("Horizontal"), 0f, 0f);
         animator.SetBool("move", Mathf.Abs(horizontalInput) > 0f);
 
         if(horizontalInput > 0f){
             transform.eulerAngles = new Vector3(0f,0f,0f);
-            direction = 1f;
+            direction = 0f;
         }
         if(horizontalInput < 0f){
             transform.eulerAngles = new Vector3(0f,180f,0f);
-            direction = -1f;
+            direction = -0f;
         }
     }
 
