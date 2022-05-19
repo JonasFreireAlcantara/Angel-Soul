@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class CassielSword : MonoBehaviour
-{   
-    private void OnTriggerEnter2D(Collider2D other) {
+{
+    public void OnCollisionEnter2D(Collision2D other) {
         if(other.gameObject.CompareTag(Tag.ENEMY)){
-            other.GetComponent<FighterControllerBase>().DecreaseLife(10f);
+            other.gameObject.GetComponent<FighterControllerBase>().DecreaseLife(10f);
         }
     }
 }

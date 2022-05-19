@@ -42,9 +42,13 @@ public class MamonController : EnemyControllerBase
 
             Collider2D[] hitPlayers = Physics2D.OverlapCircleAll(swordAttackPoint.position, swordAttackRange, playerLayer);
 
-            foreach(Collider2D player in hitPlayers)
+            foreach(Collider2D colliderPlayer in hitPlayers)
             {
-                player.GetComponent<CassielController>().DecreaseLife(20f);
+                CassielController cassielController = colliderPlayer.GetComponent<CassielController>();
+                if (cassielController != null) {
+                    cassielController.DecreaseLife(20f);
+                }
+                
             }
             
             canAttack = false;

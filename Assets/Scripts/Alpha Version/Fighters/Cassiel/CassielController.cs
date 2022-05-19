@@ -5,23 +5,23 @@ using UnityEngine;
 public class CassielController : FighterControllerBase
 {   
     //Controle de Ataques
-    public GameObject sword;
+    // public GameObject sword;
     private bool canAttack = true;
     private float lastAttack = -1;
 
     //Controle da Magia
-    public GameObject spellLaunchPoint;
-    public GameObject spellOne;
-    private bool spellOneEnable = true;
-    private float lastSpellOne = -1;
-    // private float direction = 1f;
+    // public GameObject spellLaunchPoint;
+    // public GameObject spellOne;
+    // private bool spellOneEnable = true;
+    // private float lastSpellOne = -1;
+    private int numberOfAvailableJumps = 2;
     public float Speed;
+    public bool isDefending = false;
 
     // Start is called before the first frame update
     void Start()
     {
         rigidbody2D = GetComponent<Rigidbody2D>();
-        // animator = GetComponent<Animator>();
 
         InitializeHealthAndSpellBars();
     }
@@ -32,8 +32,8 @@ public class CassielController : FighterControllerBase
         if(Time.timeScale != 0){
              Move();
              Jump();
-             Hit();
-             SpellOne();
+             SwordAttack();
+             Defense();
          }
     }
 
@@ -59,48 +59,36 @@ public class CassielController : FighterControllerBase
 
     private bool CanJump()
     {
-        return Input.GetKeyDown(KeyCode.Space) && isGrounded;
+        return Input.GetKeyDown(KeyCode.Space) && numberOfAvailableJumps > 0;
     }
 
     private new void Jump(ForceMode2D forceMode2D = ForceMode2D.Impulse){
         if(CanJump()) {
+            numberOfAvailableJumps -= 1;
+            if (numberOfAvailableJumps == 0) {
+                animator.SetTrigger("doubleJump");
+            }
             base.Jump(forceMode2D);
         }
     }
 
-    private void Hit() {
-        if(canAttack) {
-            if(Input.GetKeyDown(KeyCode.S)){
-                animator.SetBool("attack", true);
-                canAttack = false;
-                lastAttack = Time.time;
-                
-            }
+    private void SwordAttack() {
+        if (Input.GetKeyDown(KeyCode.S)) {
+            animator.SetTrigger("attack");
         }
-        else {
-            if(Time.time >= lastAttack + 0.3f) {
-                canAttack = true;
-            }
-            if(Time.time >= lastAttack + 0.15f) {
-                animator.SetBool("attack", false);
-            }
-        }
-        
     }
 
-    private void SpellOne(){
-        if(spellOneEnable){
-            if(Input.GetKeyDown(KeyCode.I) && GetSpellPoints() >= 5){
-                spellLaunchPoint.GetComponent<SpellLauncher>().Launch(spellOne, spellLaunchPoint, direction);
-                spellOneEnable = false;
-                lastSpellOne = Time.time;
-                DecreaseSpell(5f);
-            }
-        }
-        else{
-            if(Time.time >= lastSpellOne + 0.75f){
-                spellOneEnable = true;
-            }
+    public override void Landed() {
+        numberOfAvailableJumps = 2;
+    }
+
+    public void Defense() {
+        if (Input.GetKey(KeyCode.T)) {
+            isDefending = true;
+            animator.SetBool("defense", true);
+        } else {
+            isDefending = false;
+            animator.SetBool("defense", false);
         }
     }
 

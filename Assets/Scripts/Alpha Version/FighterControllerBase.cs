@@ -39,6 +39,7 @@ public class FighterControllerBase : MonoBehaviour
             isGrounded = true;
             this.animator.SetTrigger("landed");
             this.animator.ResetTrigger("jump");
+            Landed();
         }
     }
 
@@ -47,7 +48,6 @@ public class FighterControllerBase : MonoBehaviour
         if (collision2D.gameObject.CompareTag(Tag.GROUND) || collision2D.gameObject.CompareTag(Tag.ENEMY))
         {
             isGrounded = false;
-            animator.SetTrigger("jump");
             animator.ResetTrigger("landed");
         }
     }
@@ -59,6 +59,7 @@ public class FighterControllerBase : MonoBehaviour
 
     protected void Jump(ForceMode2D forceMode2D = ForceMode2D.Impulse)
     {
+        animator.SetTrigger("jump");
         rigidbody2D.AddForce(Vector2.up * jumpForce, forceMode2D);
     }
 
@@ -80,5 +81,6 @@ public class FighterControllerBase : MonoBehaviour
         return spellBar.GetValue();
     }
 
+    public virtual void Landed() { }
     
 }
