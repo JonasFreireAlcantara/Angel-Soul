@@ -46,7 +46,8 @@ public class MamonController : EnemyControllerBase
             {
                 CassielController cassielController = colliderPlayer.GetComponent<CassielController>();
                 if (cassielController != null) {
-                    cassielController.DecreaseLife(20f);
+                    if(!cassielController.isDefending)
+                        cassielController.DecreaseLife(20f);
                 }
                 
             }

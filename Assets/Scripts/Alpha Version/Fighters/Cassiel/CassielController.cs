@@ -30,10 +30,12 @@ public class CassielController : FighterControllerBase
     void Update()
     {
         if(Time.timeScale != 0){
-             Move();
-             Jump();
-             SwordAttack();
-             Defense();
+            if(!isDefending){
+                Move();
+                Jump();
+                SwordAttack();  
+            }
+            Defense();
          }
     }
 
@@ -73,8 +75,15 @@ public class CassielController : FighterControllerBase
     }
 
     private void SwordAttack() {
-        if (Input.GetKeyDown(KeyCode.S)) {
+        if (Input.GetKeyDown(KeyCode.S) && canAttack) {
+            lastAttack = Time.time;
             animator.SetTrigger("attack");
+            canAttack = false;
+        }
+        else{
+            if (Time.time >= lastAttack + 0.5f){
+                canAttack = true;
+            }
         }
     }
 
@@ -83,7 +92,7 @@ public class CassielController : FighterControllerBase
     }
 
     public void Defense() {
-        if (Input.GetKey(KeyCode.T)) {
+        if (Input.GetKey(KeyCode.T) && numberOfAvailableJumps == 2) {
             isDefending = true;
             animator.SetBool("defense", true);
         } else {
