@@ -11,12 +11,13 @@ public class animationScript : MonoBehaviour
     void Start()
     {
         
-        leviatanAnim = GetComponent<UnityArmatureComponent>();
+       // leviatanAnim = GetComponent<UnityArmatureComponent>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        leviatanAnim.animation.Play("animtion0");
+      //  leviatanAnim.animation.Play("animtion0");
+        
     }
 }
