@@ -1,43 +1,28 @@
 fileFormatVersion: 2
-guid: bb6c464aa18f104479686a95cb10e4b7
+guid: f787d6dfdf2939a4f9ef2a72747abd31
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3870611768030979699
-    second: IDLE_BELPHEGOR_0
+      213: -1543734206233232198
+    second: Belphegor-CAST-1_0
   - first:
-      213: 175995869764826423
-    second: IDLE_BELPHEGOR_1
+      213: 6895782614711527684
+    second: Belphegor-CAST-1_1
   - first:
-      213: 4136699043387578707
-    second: IDLE_BELPHEGOR_2
+      213: -224726464628803047
+    second: Belphegor-CAST-1_2
   - first:
-      213: -3547383033104023880
-    second: IDLE_BELPHEGOR_3
+      213: 3456373061155526579
+    second: Belphegor-CAST-1_3
   - first:
-      213: 7490700798338929066
-    second: IDLE_BELPHEGOR_4
+      213: 4647108816572815854
+    second: Belphegor-CAST-1_4
   - first:
-      213: 6626630169247824376
-    second: IDLE_BELPHEGOR_5
+      213: 6350740164917136862
+    second: Belphegor-CAST-1_5
   - first:
-      213: 8086572814328737922
-    second: IDLE_BELPHEGOR_6
-  - first:
-      213: -6929043863175416634
-    second: IDLE_BELPHEGOR_7
-  - first:
-      213: -8701162522833307198
-    second: IDLE_BELPHEGOR_8
-  - first:
-      213: 8496473337993906129
-    second: IDLE_BELPHEGOR_9
-  - first:
-      213: 1829749649626760787
-    second: IDLE_BELPHEGOR_10
-  - first:
-      213: -3172290279165285440
-    second: IDLE_BELPHEGOR_11
+      213: -4656945643319077321
+    second: Belphegor-CAST-1_6
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -101,7 +86,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 8192
+    maxTextureSize: 4096
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
@@ -113,7 +98,7 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Standalone
-    maxTextureSize: 8192
+    maxTextureSize: 4096
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
@@ -127,13 +112,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: IDLE_BELPHEGOR_0
+      name: Belphegor-CAST-1_0
       rect:
         serializedVersion: 2
         x: 5
-        y: 102
+        y: 1
         width: 107
-        height: 65
+        height: 67
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,83 +126,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 376eee845ec27b530800000000000000
-      internalID: 3870611768030979699
+      spriteID: abc39d12bed839ae0800000000000000
+      internalID: -1543734206233232198
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IDLE_BELPHEGOR_1
+      name: Belphegor-CAST-1_1
       rect:
         serializedVersion: 2
-        x: 125
-        y: 102
-        width: 108
-        height: 65
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 735b443af43417200800000000000000
-      internalID: 175995869764826423
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: IDLE_BELPHEGOR_2
-      rect:
-        serializedVersion: 2
-        x: 247
-        y: 102
-        width: 107
-        height: 65
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 35990dfdcd1886930800000000000000
-      internalID: 4136699043387578707
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: IDLE_BELPHEGOR_3
-      rect:
-        serializedVersion: 2
-        x: 368
-        y: 102
-        width: 107
-        height: 66
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8be369d1de925cec0800000000000000
-      internalID: -3547383033104023880
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: IDLE_BELPHEGOR_4
-      rect:
-        serializedVersion: 2
-        x: 490
-        y: 102
+        x: 127
+        y: 1
         width: 106
-        height: 66
+        height: 68
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -225,41 +147,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: aa11abb40b054f760800000000000000
-      internalID: 7490700798338929066
+      spriteID: 409e13ea0cdb2bf50800000000000000
+      internalID: 6895782614711527684
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IDLE_BELPHEGOR_5
+      name: Belphegor-CAST-1_2
       rect:
         serializedVersion: 2
-        x: 7
-        y: 13
-        width: 105
-        height: 61
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8f937ef870586fb50800000000000000
-      internalID: 6626630169247824376
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: IDLE_BELPHEGOR_6
-      rect:
-        serializedVersion: 2
-        x: 129
-        y: 13
+        x: 250
+        y: 1
         width: 104
-        height: 61
+        height: 73
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -267,20 +168,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 28035605127493070800000000000000
-      internalID: 8086572814328737922
+      spriteID: 91abb28987c91ecf0800000000000000
+      internalID: -224726464628803047
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IDLE_BELPHEGOR_7
+      name: Belphegor-CAST-1_3
       rect:
         serializedVersion: 2
-        x: 246
-        y: 13
-        width: 108
-        height: 64
+        x: 384
+        y: 1
+        width: 91
+        height: 86
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -288,20 +189,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6c4345e615717df90800000000000000
-      internalID: -6929043863175416634
+      spriteID: 3b797698cf087ff20800000000000000
+      internalID: 3456373061155526579
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IDLE_BELPHEGOR_8
+      name: Belphegor-CAST-1_4
       rect:
         serializedVersion: 2
-        x: 367
-        y: 13
-        width: 108
-        height: 67
+        x: 506
+        y: 1
+        width: 90
+        height: 90
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -309,20 +210,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2c9349549c24f3780800000000000000
-      internalID: -8701162522833307198
+      spriteID: ee99864e8d8dd7040800000000000000
+      internalID: 4647108816572815854
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IDLE_BELPHEGOR_9
+      name: Belphegor-CAST-1_5
       rect:
         serializedVersion: 2
-        x: 489
-        y: 13
-        width: 107
-        height: 67
+        x: 628
+        y: 1
+        width: 89
+        height: 86
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -330,20 +231,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1d744b21c7989e570800000000000000
-      internalID: 8496473337993906129
+      spriteID: edd01b6488c522850800000000000000
+      internalID: 6350740164917136862
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IDLE_BELPHEGOR_10
+      name: Belphegor-CAST-1_6
       rect:
         serializedVersion: 2
-        x: 610
-        y: 13
-        width: 107
-        height: 69
+        x: 749
+        y: 1
+        width: 89
+        height: 87
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -351,29 +252,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 35606e5ac93946910800000000000000
-      internalID: 1829749649626760787
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: IDLE_BELPHEGOR_11
-      rect:
-        serializedVersion: 2
-        x: 729
-        y: 13
-        width: 109
-        height: 65
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0cbade17cc2c9f3d0800000000000000
-      internalID: -3172290279165285440
+      spriteID: 736d9a76c943f5fb0800000000000000
+      internalID: -4656945643319077321
       vertices: []
       indices: 
       edges: []
