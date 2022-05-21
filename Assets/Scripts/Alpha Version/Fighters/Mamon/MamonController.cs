@@ -5,8 +5,12 @@ using UnityEngine;
 public class MamonController : EnemyControllerBase
 {
     public float swordAttackRange;
-    private float lastAttack = -1;
+    private float lastAttack = -1f;
     private bool canAttack = true;
+    private float habilityOneLastCast = 5f;
+    private bool habilityOneinCooldown = true;
+    private float habilityOneCooldown = 10f;
+    private bool secondPhase = false;
     public Transform attackPoint;
     public LayerMask playerLayer;
 
@@ -21,13 +25,22 @@ public class MamonController : EnemyControllerBase
 
     // Update is called once per frame
     void Update()
-    {
-        LookAtPlayer();
+    {   
+        if(Time.timeScale > 0f){
+            LookAtPlayer();
+            if(!secondPhase){
+                if(GetHealthPoints() <= healthBar.GetMaxValue()/2){
+                    ActiveSecondPhase();
+                }
+            }
+            if (CanJump())
+            {
+                Jump(ForceMode2D.Force);
+            }
 
-        if (CanJump())
-        {
-            Jump(ForceMode2D.Force);
+            HabilityOne();
         }
+        
     }
 
     private bool CanJump()
@@ -40,7 +53,7 @@ public class MamonController : EnemyControllerBase
         if(canAttack){
             animator.SetTrigger("Attack");
 
-            this.gameObject.GetComponent<CastHability>().Cast(isFlipped ? 1 : -1, this.gameObject, 0);
+            this.gameObject.GetComponent<CastHability>().Cast(isFlipped ? 1 : -1, this.gameObject.transform, 0);
             
             canAttack = false;
             lastAttack = Time.time;
@@ -48,6 +61,46 @@ public class MamonController : EnemyControllerBase
         else {
             if(Time.time >= lastAttack + 1.5f)
                 canAttack = true;
+        }
+        
+    }
+
+    void HabilityOne(){
+        if (!habilityOneinCooldown && spellBar.GetValue() > 5f){
+            habilityOneLastCast = Time.time;
+            animator.SetTrigger("Attack");
+            this.gameObject.GetComponent<CastHability>().Cast(isFlipped ? -1 : 1, player.transform, 1);
+
+            habilityOneinCooldown = true;
+            DecreaseSpell(5f);
+            
+        }
+        else{
+            if(Time.time >= habilityOneLastCast + habilityOneCooldown){
+                habilityOneinCooldown = false;
+            }
+        }
+    }
+
+    void ActiveSecondPhase(){
+        secondPhase = true;
+        habilityOneCooldown = 5f;
+    }
+
+    public void SpellVamp(float lifeStealed, float manaStealed){
+        if(life + lifeStealed >= healthBar.GetMaxValue()){
+            healthBar.SetValue(healthBar.GetMaxValue());
+        }
+        else{
+            life += lifeStealed;
+            healthBar.SetValue(life);
+        }
+        if(spell + manaStealed >= spellBar.GetMaxValue()){
+            spellBar.SetValue(spellBar.GetMaxValue());
+        }
+        else{
+            spell += manaStealed;
+            spellBar.SetValue(spell);
         }
         
     }

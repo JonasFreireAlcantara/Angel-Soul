@@ -18,6 +18,10 @@ public class ProgressBar : MonoBehaviour
 		fill.color = gradient.Evaluate(1f);
 	}
 
+	public float GetMaxValue(){
+		return slider.maxValue;
+	}
+
     public void SetValue(float value)
 	{
 		slider.value = value;

@@ -2,19 +2,16 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MammomBaseAttackAction : MonoBehaviour
-{
+public class MammomHabilityOneAction : MonoBehaviour
+{   
     private float timeCasted = -1;
-    private float direction = 0f;
 
+    // Start is called before the first frame update
     void Start(){
         timeCasted = Time.time;
         bool flipped = GameObject.FindGameObjectWithTag(Tag.ENEMY).GetComponent<EnemyControllerBase>().isFlipped;
         if (flipped){
-            direction = 1f;
-        }
-        else{
-            direction = -1f;
+            this.gameObject.transform.Rotate(0f,180f,0f);
         }
 
     }
@@ -25,14 +22,8 @@ public class MammomBaseAttackAction : MonoBehaviour
             if(timeCasted + 1.5f <= Time.time){
                 Dismiss();
             }
-            Move();
         }
         
-    }
-
-    void Move(){
-        Vector3 movement = new Vector3(direction, 0f, 0f);
-        this.gameObject.transform.position += movement * Time.deltaTime * 7.5f;
     }
 
     void Dismiss(){
@@ -41,16 +32,11 @@ public class MammomBaseAttackAction : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other) {
         if (other.gameObject.CompareTag(Tag.PLAYER)){
-            Dismiss();
-            
-            if(other.gameObject.GetComponent<CassielController>().isDefending){
-                other.gameObject.GetComponent<CassielController>().DecreaseLife(10f);
-            }
-            else {
-                other.gameObject.GetComponent<CassielController>().DecreaseLife(30f);
-            }
-
+            CassielController controller = other.gameObject.GetComponent<CassielController>();
+            controller.DecreaseLife(30f);
+            GameObject.FindGameObjectWithTag(Tag.ENEMY).GetComponent<MamonController>().SpellVamp(15f, 0f);
         }
 
     }
+
 }
