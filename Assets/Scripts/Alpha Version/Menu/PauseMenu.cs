@@ -31,7 +31,7 @@ public class PauseMenu : MonoBehaviour
 
     public void MainMenu()
     {
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene("Menu Inicial");
     }
 
     public void Resume()

@@ -7,6 +7,7 @@ public class GamePlay : MonoBehaviour
     public GameObject player;
     public GameObject enemy;
     public GameObject gameOverMenu;
+    public GameObject winnerMenu;
 
     public string nextScene;
 
@@ -29,8 +30,10 @@ public class GamePlay : MonoBehaviour
         Time.timeScale = 0f;
     }
 
-    public void Victory(){
+    public void Victory()
+    {
         Destroy(enemy);
-        
+        winnerMenu.SetActive(true);
+        Time.timeScale = 0f;
     }
 }
