@@ -4,9 +4,24 @@ using UnityEngine;
 
 public class CassielSword : MonoBehaviour
 {
-    public void OnCollisionEnter2D(Collision2D other) {
+    private bool isHitting = false;
+    private bool isAttacking = true;
+    public void OnTriggerEnter2D(Collider2D other) {
         if(other.gameObject.CompareTag(Tag.ENEMY)){
-            other.gameObject.GetComponent<FighterControllerBase>().DecreaseLife(10f);
+            if(!isHitting && isAttacking){
+                isHitting = true;
+                other.gameObject.GetComponent<FighterControllerBase>().DecreaseLife(10f);
+            }
+           
         }
+    }
+
+    public void OnTriggerExit2D(Collider2D other) {
+        isHitting = false;
+        isAttacking = false;
+    }
+
+    public void setAttacking(bool state){
+        isAttacking = state;
     }
 }

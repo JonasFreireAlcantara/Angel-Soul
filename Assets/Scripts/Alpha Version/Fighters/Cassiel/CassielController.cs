@@ -5,9 +5,11 @@ using UnityEngine;
 public class CassielController : FighterControllerBase
 {   
     //Controle de Ataques
-    // public GameObject sword;
+    public GameObject sword;
     private bool canAttack = true;
     private float lastAttack = -1;
+
+    private float lastJump = -1;
 
     //Controle da Magia
     // public GameObject spellLaunchPoint;
@@ -61,7 +63,7 @@ public class CassielController : FighterControllerBase
 
     private bool CanJump()
     {
-        return Input.GetKeyDown(KeyCode.Space) && numberOfAvailableJumps > 0;
+        return Input.GetKeyDown(KeyCode.Space) && numberOfAvailableJumps > 0 && Time.time > lastJump + 0.45f;
     }
 
     private new void Jump(ForceMode2D forceMode2D = ForceMode2D.Impulse){
@@ -70,6 +72,7 @@ public class CassielController : FighterControllerBase
             if (numberOfAvailableJumps == 0) {
                 animator.SetTrigger("doubleJump");
             }
+            lastJump = Time.time;
             base.Jump(forceMode2D);
         }
     }
@@ -79,6 +82,7 @@ public class CassielController : FighterControllerBase
             lastAttack = Time.time;
             animator.SetTrigger("attack");
             canAttack = false;
+            sword.GetComponent<CassielSword>().setAttacking(true);
         }
         else{
             if (Time.time >= lastAttack + 0.5f){
@@ -100,5 +104,5 @@ public class CassielController : FighterControllerBase
             animator.SetBool("defense", false);
         }
     }
-
+    
 }

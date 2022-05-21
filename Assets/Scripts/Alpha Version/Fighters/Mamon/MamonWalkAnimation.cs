@@ -19,9 +19,10 @@ public class MamonWalkAnimation : StateMachineBehaviour
    // OnStateUpdate is called on each Update frame between OnStateEnter and OnStateExit callbacks
    override public void OnStateUpdate(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
    {
-      WalkTowardPlayer();
+      if(OutOfDistance())
+         WalkTowardPlayer();
 
-      if (mamonController.IsPlayerInsideSwordAttackRange())
+      if (mamonController.IsPlayerInsideAttackRange())
       {
          mamonController.SwordAttack();
       }
@@ -29,12 +30,16 @@ public class MamonWalkAnimation : StateMachineBehaviour
 
    private void WalkTowardPlayer()
    {
-      if(Vector2.Distance(playerTransform.position, rigidbody2D.position) > 3.7){
+      if(Vector2.Distance(playerTransform.position, rigidbody2D.position) > 2.5f){
          Vector2 target = new Vector2(playerTransform.position.x, rigidbody2D.position.y);
          Vector2 newPosition = Vector2.MoveTowards(rigidbody2D.position, target, mamonController.speed * Time.fixedDeltaTime);
          rigidbody2D.MovePosition(newPosition);
       }
       
+   }
+
+   private bool OutOfDistance(){
+      return Vector2.Distance(playerTransform.position, rigidbody2D.position) > 2.5f ? true : false;
    }
 
 }

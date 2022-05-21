@@ -7,7 +7,7 @@ public class MamonController : EnemyControllerBase
     public float swordAttackRange;
     private float lastAttack = -1;
     private bool canAttack = true;
-    public Transform swordAttackPoint;
+    public Transform attackPoint;
     public LayerMask playerLayer;
 
     // Start is called before the first frame update
@@ -40,39 +40,29 @@ public class MamonController : EnemyControllerBase
         if(canAttack){
             animator.SetTrigger("Attack");
 
-            Collider2D[] hitPlayers = Physics2D.OverlapCircleAll(swordAttackPoint.position, swordAttackRange, playerLayer);
-
-            foreach(Collider2D colliderPlayer in hitPlayers)
-            {
-                CassielController cassielController = colliderPlayer.GetComponent<CassielController>();
-                if (cassielController != null) {
-                    if(!cassielController.isDefending)
-                        cassielController.DecreaseLife(20f);
-                }
-                
-            }
+            this.gameObject.GetComponent<CastHability>().Cast(isFlipped ? 1 : -1, this.gameObject, 0);
             
             canAttack = false;
             lastAttack = Time.time;
         }
         else {
-            if(Time.time >= lastAttack + 1f)
+            if(Time.time >= lastAttack + 1.5f)
                 canAttack = true;
         }
         
     }
 
-    public bool IsPlayerInsideSwordAttackRange()
+    public bool IsPlayerInsideAttackRange()
     {
-        return Vector2.Distance(player.position, swordAttackPoint.position) <= swordAttackRange;
+        return Vector2.Distance(player.position, attackPoint.position) <= swordAttackRange;
     }
 
     void OnDrawGizmosSelected()
     {
-        if (swordAttackPoint == null)
+        if (attackPoint == null)
             return;
 
-        Gizmos.DrawWireSphere(swordAttackPoint.position, swordAttackRange);
+        Gizmos.DrawWireSphere(attackPoint.position, swordAttackRange);
     }
 
 }

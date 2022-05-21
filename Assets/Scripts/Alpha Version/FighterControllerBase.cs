@@ -17,7 +17,7 @@ public class FighterControllerBase : MonoBehaviour
     protected float direction = 1f;
     protected bool isGrounded = false;
 
-    protected Rigidbody2D rigidbody2D;
+    protected new Rigidbody2D rigidbody2D;
     public Animator animator;
 
     // Health bar
