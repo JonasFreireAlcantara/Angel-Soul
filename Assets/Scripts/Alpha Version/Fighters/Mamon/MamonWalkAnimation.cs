@@ -11,7 +11,7 @@ public class MamonWalkAnimation : StateMachineBehaviour
    // OnStateEnter is called when a transition starts and the state machine starts to evaluate this state
    override public void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
    {
-      playerTransform = GameObject.FindGameObjectWithTag("Player").transform;
+      playerTransform = GameObject.FindGameObjectWithTag(Tag.PLAYER).transform;
       rigidbody2D = animator.GetComponent<Rigidbody2D>();
       mamonController = animator.GetComponent<MamonController>();
    }

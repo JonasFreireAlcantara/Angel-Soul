@@ -23,4 +23,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Angel Soul/Water_CAVE.unity
     guid: e68a3a04b3e7b8b41acdef08513a0de4
+  - enabled: 1
+    path: Assets/Scenes/Angel Soul/DEEP_TEMPLE.unity
+    guid: 875dc3e9065b39d4a9715754ddade975
+  - enabled: 1
+    path: Assets/Scenes/Angel Soul/Final_STAGE.unity
+    guid: 6395eba149297be4ca246e38d9b798c1
   m_configObjects: {}

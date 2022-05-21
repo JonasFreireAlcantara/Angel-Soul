@@ -63,6 +63,22 @@ public class FighterControllerBase : MonoBehaviour
         rigidbody2D.AddForce(Vector2.up * jumpForce, forceMode2D);
     }
 
+    public void IncreaseLife(float value) {
+        life += value;
+        if (life > healthBar.GetMaxValue()) {
+            life = healthBar.GetMaxValue();
+        }
+        healthBar.SetValue(life);
+    }
+
+    public void IncreaseSpell(float value) {
+        spell += value;
+        if (spell > spellBar.GetMaxValue()) {
+            spell = spellBar.GetMaxValue();
+        }
+        spellBar.SetValue(spell);
+    }
+
     public void DecreaseLife(float value) {
         life -= value;
         healthBar.SetValue(life);
