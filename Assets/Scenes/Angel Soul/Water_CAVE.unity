@@ -2083,6 +2083,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1573681742}
   - component: {fileID: 1573681741}
+  - component: {fileID: 1573681743}
   m_Layer: 0
   m_Name: SoundManager
   m_TagString: Untagged
@@ -2097,7 +2098,7 @@ AudioSource:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1573681740}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: ad7d1b98bc43b4c4ea7049135b354a15, type: 3}
@@ -2200,6 +2201,30 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1573681743
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1573681740}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 44690e85eca89284ab8a3a1794a9da8c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: WATER_CAVE
+    introIndex: 0
+    clip: {fileID: 0}
+    intro: {fileID: 8300000, guid: 054b6f38f8e84994aa6e1e0357e18237, type: 3}
+    iloop: {fileID: 8300000, guid: 114268c48af9de74db47c8fe532ac4f2, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+    introAudio: {fileID: 0}
+    loopAudio: {fileID: 0}
 --- !u!1 &1623853175
 GameObject:
   m_ObjectHideFlags: 1
@@ -3011,7 +3036,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 1.7777778, y: 1}
+    m_SensorSize: {x: 2.1492007, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -3045,7 +3070,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 516785133997123329}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -11.594444, y: 103.99, z: -10}
+  m_LocalPosition: {x: -12.188721, y: 103.99, z: -10}
   m_LocalScale: {x: 2, y: 2, z: 1}
   m_Children:
   - {fileID: 516785132421615812}
@@ -5102,7 +5127,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 1.6258, y: -279}
+  m_AnchoredPosition: {x: 1.6257935, y: -279}
   m_SizeDelta: {x: -1873.7484, y: -1070.9614}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &789573231061357235
@@ -8049,7 +8074,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4306994285629831678}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -11.594444, y: 103.99, z: -10}
+  m_LocalPosition: {x: -12.188721, y: 103.99, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
