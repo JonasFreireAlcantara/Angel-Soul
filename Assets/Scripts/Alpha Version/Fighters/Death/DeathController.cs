@@ -29,7 +29,7 @@ public class DeathController : EnemyControllerBase
 
     public void RandomAttack()
     {
-        int value = Random.Range(0, 900);
+        int value = Random.Range(0, 500);
 
         if (value == 1)
         {
