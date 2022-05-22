@@ -32,7 +32,7 @@ public class MammomBaseAttackAction : MonoBehaviour
 
     void Move(){
         Vector3 movement = new Vector3(direction, 0f, 0f);
-        this.gameObject.transform.position += movement * Time.deltaTime * 7.5f;
+        this.gameObject.transform.position += movement * Time.deltaTime * 5f;
     }
 
     void Dismiss(){

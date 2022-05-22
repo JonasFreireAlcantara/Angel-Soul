@@ -17,7 +17,6 @@ public class CassielController : FighterControllerBase
     // private bool spellOneEnable = true;
     // private float lastSpellOne = -1;
     private int numberOfAvailableJumps = 2;
-    public float Speed;
     public bool isDefending = false;
 
     // Start is called before the first frame update

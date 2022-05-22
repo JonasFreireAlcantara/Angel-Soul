@@ -10,52 +10,52 @@ TextureImporter:
     second: Raizes-Constritoras_1
   - first:
       213: 9041829354060359626
-    second: Raizes-Constritoras_2
-  - first:
-      213: -2676404081392907298
-    second: Raizes-Constritoras_3
-  - first:
-      213: 7522910587871822551
     second: Raizes-Constritoras_4
   - first:
+      213: -2676404081392907298
+    second: Raizes-Constritoras_4
+  - first:
+      213: 7522910587871822551
+    second: Raizes-Constritoras_2
+  - first:
       213: 1177036422894455550
-    second: Raizes-Constritoras_5
+    second: Raizes-Constritoras_4
   - first:
       213: -890477110389197193
-    second: Raizes-Constritoras_6
+    second: Raizes-Constritoras_2
   - first:
       213: -8399524170508162180
-    second: Raizes-Constritoras_7
+    second: Raizes-Constritoras_4
   - first:
       213: -3156363857219076309
-    second: Raizes-Constritoras_8
+    second: Raizes-Constritoras_2
   - first:
       213: -5540019276412635207
-    second: Raizes-Constritoras_9
+    second: Raizes-Constritoras_4
   - first:
       213: -5257623498449578936
-    second: Raizes-Constritoras_10
+    second: Raizes-Constritoras_2
   - first:
       213: -5955754216493970001
-    second: Raizes-Constritoras_11
+    second: Raizes-Constritoras_4
   - first:
       213: -2585784478175855352
-    second: Raizes-Constritoras_12
+    second: Raizes-Constritoras_2
   - first:
       213: -4149929916359845967
-    second: Raizes-Constritoras_13
+    second: Raizes-Constritoras_4
   - first:
       213: 4191236833730165446
-    second: Raizes-Constritoras_14
+    second: Raizes-Constritoras_2
   - first:
       213: -8134139053696172366
-    second: Raizes-Constritoras_15
+    second: Raizes-Constritoras_2
   - first:
       213: 521168218617233261
-    second: Raizes-Constritoras_16
+    second: Raizes-Constritoras_4
   - first:
       213: -7905416521994372106
-    second: Raizes-Constritoras_17
+    second: Raizes-Constritoras_2
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -86,7 +86,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -100,7 +100,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -119,7 +119,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 4096
+    maxTextureSize: 8192
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
@@ -131,7 +131,19 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Standalone
-    maxTextureSize: 4096
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 8192
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
@@ -148,12 +160,12 @@ TextureImporter:
       name: Raizes-Constritoras_0
       rect:
         serializedVersion: 2
-        x: 1
-        y: 6
-        width: 14
-        height: 62
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 0
+        y: 5
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -169,12 +181,12 @@ TextureImporter:
       name: Raizes-Constritoras_1
       rect:
         serializedVersion: 2
-        x: 18
-        y: 6
-        width: 13
-        height: 62
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 17
+        y: 5
+        width: 15
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -187,15 +199,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Raizes-Constritoras_2
+      name: Raizes-Constritoras_3
       rect:
         serializedVersion: 2
-        x: 47
-        y: 6
-        width: 13
-        height: 62
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 46
+        y: 5
+        width: 15
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -208,15 +220,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Raizes-Constritoras_3
+      name: Raizes-Constritoras_5
       rect:
         serializedVersion: 2
-        x: 81
-        y: 6
-        width: 12
-        height: 62
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 79
+        y: 5
+        width: 15
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -229,15 +241,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Raizes-Constritoras_4
+      name: Raizes-Constritoras_6
       rect:
         serializedVersion: 2
-        x: 97
-        y: 6
-        width: 13
-        height: 62
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 95
+        y: 5
+        width: 16
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -250,15 +262,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Raizes-Constritoras_5
+      name: Raizes-Constritoras_7
       rect:
         serializedVersion: 2
-        x: 114
-        y: 6
-        width: 13
-        height: 62
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 112
+        y: 5
+        width: 16
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -271,15 +283,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Raizes-Constritoras_6
+      name: Raizes-Constritoras_8
       rect:
         serializedVersion: 2
-        x: 131
-        y: 6
-        width: 13
-        height: 62
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 129
+        y: 5
+        width: 17
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -292,15 +304,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Raizes-Constritoras_7
+      name: Raizes-Constritoras_9
       rect:
         serializedVersion: 2
-        x: 149
-        y: 6
-        width: 13
-        height: 62
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 147
+        y: 3
+        width: 17
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -313,15 +325,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Raizes-Constritoras_8
+      name: Raizes-Constritoras_10
       rect:
         serializedVersion: 2
-        x: 167
-        y: 6
-        width: 13
-        height: 62
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 164
+        y: 5
+        width: 17
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -334,15 +346,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Raizes-Constritoras_9
+      name: Raizes-Constritoras_11
       rect:
         serializedVersion: 2
-        x: 184
-        y: 6
-        width: 13
-        height: 62
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 183
+        y: 5
+        width: 16
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -355,15 +367,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Raizes-Constritoras_10
+      name: Raizes-Constritoras_12
       rect:
         serializedVersion: 2
-        x: 202
-        y: 6
-        width: 13
-        height: 62
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 201
+        y: 5
+        width: 16
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -376,15 +388,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Raizes-Constritoras_11
+      name: Raizes-Constritoras_13
       rect:
         serializedVersion: 2
-        x: 220
-        y: 6
-        width: 13
-        height: 62
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 219
+        y: 5
+        width: 17
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -397,15 +409,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Raizes-Constritoras_12
+      name: Raizes-Constritoras_14
       rect:
         serializedVersion: 2
-        x: 238
-        y: 6
-        width: 13
-        height: 62
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 236
+        y: 5
+        width: 16
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -418,15 +430,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Raizes-Constritoras_13
+      name: Raizes-Constritoras_16
       rect:
         serializedVersion: 2
-        x: 284
-        y: 6
-        width: 15
-        height: 62
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 269
+        y: 5
+        width: 14
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -439,15 +451,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Raizes-Constritoras_14
+      name: Raizes-Constritoras_15
       rect:
         serializedVersion: 2
-        x: 33
-        y: 6
-        width: 11
-        height: 62
+        x: 254
+        y: 4
+        width: 14
+        height: 40
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -460,15 +472,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Raizes-Constritoras_15
+      name: Raizes-Constritoras_17
       rect:
         serializedVersion: 2
-        x: 63
-        y: 6
-        width: 13
-        height: 62
+        x: 284
+        y: 5
+        width: 16
+        height: 21
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -481,15 +493,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Raizes-Constritoras_16
+      name: Raizes-Constritoras_4
       rect:
         serializedVersion: 2
-        x: 255
-        y: 6
-        width: 12
-        height: 62
+        x: 62
+        y: 5
+        width: 16
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -502,15 +514,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Raizes-Constritoras_17
+      name: Raizes-Constritoras_2
       rect:
         serializedVersion: 2
-        x: 270
-        y: 6
-        width: 13
-        height: 62
+        x: 33
+        y: 5
+        width: 12
+        height: 39
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []

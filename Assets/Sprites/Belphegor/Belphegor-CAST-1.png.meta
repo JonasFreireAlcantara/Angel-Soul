@@ -1,19 +1,28 @@
 fileFormatVersion: 2
-guid: 2d0f4728b00826448ba1b0dc1cc77786
+guid: f787d6dfdf2939a4f9ef2a72747abd31
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -2377243226806286765
-    second: SLEEP-EFFECT_1
+      213: -1543734206233232198
+    second: Belphegor-CAST-1_0
   - first:
-      213: -8088605150016781677
-    second: SLEEP-EFFECT_3
+      213: 6895782614711527684
+    second: Belphegor-CAST-1_1
   - first:
-      213: 7652645215827026843
-    second: SLEEP-EFFECT_6
+      213: -224726464628803047
+    second: Belphegor-CAST-1_2
   - first:
-      213: -8373691348802745877
-    second: SLEEP-EFFECT_7
+      213: 3456373061155526579
+    second: Belphegor-CAST-1_3
+  - first:
+      213: 4647108816572815854
+    second: Belphegor-CAST-1_4
+  - first:
+      213: 6350740164917136862
+    second: Belphegor-CAST-1_5
+  - first:
+      213: -4656945643319077321
+    second: Belphegor-CAST-1_6
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -44,7 +53,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -58,7 +67,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -77,7 +86,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 4096
+    maxTextureSize: 8192
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
@@ -89,7 +98,19 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Standalone
-    maxTextureSize: 4096
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 8192
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
@@ -103,85 +124,148 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: SLEEP-EFFECT_1
+      name: Belphegor-CAST-1_0
       rect:
         serializedVersion: 2
-        x: 73
-        y: 284
-        width: 138
-        height: 111
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 5
+        y: 1
+        width: 107
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 356028161e5520fd0800000000000000
-      internalID: -2377243226806286765
+      spriteID: abc39d12bed839ae0800000000000000
+      internalID: -1543734206233232198
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SLEEP-EFFECT_3
+      name: Belphegor-CAST-1_1
       rect:
         serializedVersion: 2
-        x: 286
-        y: 278
-        width: 162
-        height: 135
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 127
+        y: 1
+        width: 106
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 392cad8a8708fbf80800000000000000
-      internalID: -8088605150016781677
+      spriteID: 409e13ea0cdb2bf50800000000000000
+      internalID: 6895782614711527684
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SLEEP-EFFECT_6
+      name: Belphegor-CAST-1_2
       rect:
         serializedVersion: 2
-        x: 49
-        y: 20
-        width: 164
-        height: 153
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 250
+        y: 1
+        width: 104
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b9366714748a33a60800000000000000
-      internalID: 7652645215827026843
+      spriteID: 91abb28987c91ecf0800000000000000
+      internalID: -224726464628803047
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SLEEP-EFFECT_7
+      name: Belphegor-CAST-1_3
       rect:
         serializedVersion: 2
-        x: 269
-        y: 19
-        width: 179
-        height: 244
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 384
+        y: 1
+        width: 91
+        height: 86
+      alignment: 9
+      pivot: {x: 0.5, y: 0.41862443}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: be9c9df751caacb80800000000000000
-      internalID: -8373691348802745877
+      spriteID: 3b797698cf087ff20800000000000000
+      internalID: 3456373061155526579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Belphegor-CAST-1_4
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 1
+        width: 90
+        height: 90
+      alignment: 9
+      pivot: {x: 0.5, y: 0.42931035}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee99864e8d8dd7040800000000000000
+      internalID: 4647108816572815854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Belphegor-CAST-1_5
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 1
+        width: 89
+        height: 86
+      alignment: 9
+      pivot: {x: 0.5, y: 0.43342015}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edd01b6488c522850800000000000000
+      internalID: 6350740164917136862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Belphegor-CAST-1_6
+      rect:
+        serializedVersion: 2
+        x: 749
+        y: 1
+        width: 89
+        height: 87
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4268728}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 736d9a76c943f5fb0800000000000000
+      internalID: -4656945643319077321
       vertices: []
       indices: 
       edges: []

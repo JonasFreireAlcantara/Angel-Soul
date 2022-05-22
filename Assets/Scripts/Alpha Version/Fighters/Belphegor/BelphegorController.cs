@@ -2,9 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MamonController : EnemyControllerBase
+public class BelphegorController : EnemyControllerBase
 {
-    public float swordAttackRange;
+    public float attackRange;
     private float lastAttack = -1f;
     private bool canAttack = true;
     private float habilityOneLastCast = 15f;
@@ -25,7 +25,7 @@ public class MamonController : EnemyControllerBase
 
     // Update is called once per frame
     void Update()
-    {   
+    {
         if(Time.timeScale > 0f){
             LookAtPlayer();
             if(!secondPhase){
@@ -38,9 +38,8 @@ public class MamonController : EnemyControllerBase
                 Jump(ForceMode2D.Force);
             }
 
-            HabilityOne();
+            //HabilityOne();
         }
-        
     }
 
     private bool CanJump()
@@ -51,7 +50,7 @@ public class MamonController : EnemyControllerBase
     public void SwordAttack()
     {
         if(canAttack){
-            animator.SetTrigger("Attack");
+            animator.SetTrigger("attack");
 
             this.gameObject.GetComponent<CastHability>().Cast(isFlipped ? 1 : -1, this.gameObject.transform, 0);
             
@@ -68,7 +67,7 @@ public class MamonController : EnemyControllerBase
     void HabilityOne(){
         if (!habilityOneinCooldown && spellBar.GetValue() > 5f){
             habilityOneLastCast = Time.time;
-            animator.SetTrigger("Cast");
+            animator.SetTrigger("cast");
             this.gameObject.GetComponent<CastHability>().Cast(isFlipped ? -1 : 1, player.transform, 1);
 
             habilityOneinCooldown = true;
@@ -109,7 +108,7 @@ public class MamonController : EnemyControllerBase
 
     public bool IsPlayerInsideAttackRange()
     {
-        return Vector2.Distance(player.position, attackPoint.position) <= swordAttackRange;
+        return Vector2.Distance(player.position, attackPoint.position) <= attackRange;
     }
 
     void OnDrawGizmosSelected()
@@ -117,7 +116,6 @@ public class MamonController : EnemyControllerBase
         if (attackPoint == null)
             return;
 
-        Gizmos.DrawWireSphere(attackPoint.position, swordAttackRange);
+        Gizmos.DrawWireSphere(attackPoint.position, attackRange);
     }
-
 }
