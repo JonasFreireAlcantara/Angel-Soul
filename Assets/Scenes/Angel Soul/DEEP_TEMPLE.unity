@@ -665,6 +665,7 @@ GameObject:
   m_Component:
   - component: {fileID: 480805699}
   - component: {fileID: 480805700}
+  - component: {fileID: 480805701}
   m_Layer: 0
   m_Name: Ground (1)
   m_TagString: Ground
@@ -712,6 +713,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &480805701
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 480805698}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cecb75e0cea80840ac3f20cb25184a4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &521950844
 GameObject:
   m_ObjectHideFlags: 0
@@ -819,6 +832,7 @@ GameObject:
   m_Component:
   - component: {fileID: 592117745}
   - component: {fileID: 592117746}
+  - component: {fileID: 592117747}
   m_Layer: 0
   m_Name: Plataforms (1)
   m_TagString: Ground
@@ -866,6 +880,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &592117747
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 592117744}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cecb75e0cea80840ac3f20cb25184a4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &668975111
 GameObject:
   m_ObjectHideFlags: 0
@@ -876,6 +902,7 @@ GameObject:
   m_Component:
   - component: {fileID: 668975112}
   - component: {fileID: 668975113}
+  - component: {fileID: 668975114}
   m_Layer: 0
   m_Name: Plataforms
   m_TagString: Ground
@@ -923,6 +950,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &668975114
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 668975111}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cecb75e0cea80840ac3f20cb25184a4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &682752223
 GameObject:
   m_ObjectHideFlags: 0
@@ -1147,6 +1186,10 @@ PrefabInstance:
       value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 6208017611295907018, guid: c5f0810e35066bbc389644c889ab2aa8, type: 3}
+      propertyPath: life
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 6208017611295907018, guid: c5f0810e35066bbc389644c889ab2aa8, type: 3}
       propertyPath: spellBar
       value: 
       objectReference: {fileID: 956538325}
@@ -1245,7 +1288,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c39191ae509a94a4a9d95d27fbd41644, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  habilities: []
+  habilities:
+  - {fileID: 6340277849360577382, guid: b27f2b1fe11c1d648b8b8476530cdb99, type: 3}
+  - {fileID: 6062439267377014638, guid: 093117f96c78b494688ab5b4bdd3a2de, type: 3}
 --- !u!212 &1059433434
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1420,18 +1465,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   life: 300
   spell: 70
-  speed: 500
+  speed: 5
   jumpForce: 5
   animator: {fileID: 1059433438}
   healthBar: {fileID: 211714234}
   spellBar: {fileID: 197196778}
   player: {fileID: 1610146884}
   isFlipped: 0
-  attackRange: 0.7
+  attackRange: 1.5
   attackPoint: {fileID: 1509281059}
   playerLayer:
     serializedVersion: 2
     m_Bits: 128
+  playerLanded: 0
 --- !u!1 &1067273724
 GameObject:
   m_ObjectHideFlags: 0
@@ -1442,6 +1488,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1067273725}
   - component: {fileID: 1067273726}
+  - component: {fileID: 1067273727}
   m_Layer: 0
   m_Name: Plataforms (2)
   m_TagString: Ground
@@ -1489,6 +1536,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &1067273727
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1067273724}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cecb75e0cea80840ac3f20cb25184a4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1134646194
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1780,6 +1839,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1345409950}
   - component: {fileID: 1345409951}
+  - component: {fileID: 1345409952}
   m_Layer: 0
   m_Name: Ground
   m_TagString: Ground
@@ -1827,6 +1887,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &1345409952
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1345409949}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cecb75e0cea80840ac3f20cb25184a4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1355996963
 GameObject:
   m_ObjectHideFlags: 0
@@ -2109,7 +2181,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1509281058}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.71, y: 0.08, z: 0}
+  m_LocalPosition: {x: -2.73, y: 0.13, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1059433435}
@@ -2572,6 +2644,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1844290543}
   - component: {fileID: 1844290544}
+  - component: {fileID: 1844290545}
   m_Layer: 0
   m_Name: Ground (2)
   m_TagString: Ground
@@ -2619,6 +2692,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &1844290545
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1844290542}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cecb75e0cea80840ac3f20cb25184a4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1910270680
 GameObject:
   m_ObjectHideFlags: 0

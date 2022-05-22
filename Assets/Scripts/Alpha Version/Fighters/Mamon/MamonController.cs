@@ -64,7 +64,7 @@ public class MamonController : EnemyControllerBase
             lastAttack = Time.time;
         }
         else {
-            if(Time.time >= lastAttack + 1.5f)
+            if(Time.time >= lastAttack + 2f)
                 canAttack = true;
         }
         

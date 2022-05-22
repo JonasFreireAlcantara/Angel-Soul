@@ -19,6 +19,11 @@ public class CassielController : FighterControllerBase
     private int numberOfAvailableJumps = 2;
     public bool isDefending = false;
 
+    public bool isSleeping = false;
+    private float timeSleeped;
+    private float timeToSleep;
+    private float initialTimeSleep;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -30,14 +35,22 @@ public class CassielController : FighterControllerBase
     // Update is called once per frame
     void Update()
     {
-        if(Time.timeScale != 0){
+        if(Time.timeScale != 0 && !isSleeping){
             if(!isDefending){
                 Move();
                 Jump();
                 SwordAttack();  
             }
             Defense();
-         }
+        }
+        else if (isSleeping){
+            timeSleeped = Time.time - initialTimeSleep;
+            timeToSleep -= timeSleeped;
+
+            if(timeToSleep <= 0){
+                AwakeFromSleep();
+            }
+        }
     }
 
     private void Move(){
@@ -102,6 +115,19 @@ public class CassielController : FighterControllerBase
             isDefending = false;
             animator.SetBool("defense", false);
         }
+    }
+
+    public void Sleep(float timeToSleep){
+        isSleeping = true;
+        timeSleeped = 0f;
+        this.timeToSleep = timeToSleep;
+        initialTimeSleep = Time.time;
+    }
+
+    public void AwakeFromSleep(){
+        isSleeping = false;
+        timeToSleep = 0;
+
     }
     
 }

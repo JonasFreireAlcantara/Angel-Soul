@@ -7,14 +7,14 @@ public class BelphegorController : EnemyControllerBase
     public float attackRange;
     private float lastAttack = -1f;
     private bool canAttack = true;
-    private float habilityOneLastCast = 15f;
+    private float habilityOneLastCast = 0f;
     private bool habilityOneinCooldown = true;
     private float habilityOneCooldown = 10f;
     private bool secondPhase = false;
     public Transform attackPoint;
     public LayerMask playerLayer;
 
-    // Start is called before the first frame update
+    public bool playerLanded;
 
     public void Awake()
     {
@@ -23,9 +23,9 @@ public class BelphegorController : EnemyControllerBase
         FindObjectOfType<AudioManager>().IntroPlay("DEEP_TEMPLE_intro");
         FindObjectOfType<AudioManager>().LoopPlay("DEEP_TEMPLE_loop");
     }
+    // Start is called before the first frame update
     void Start()
     {
-
         rigidbody2D = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
 
@@ -37,6 +37,7 @@ public class BelphegorController : EnemyControllerBase
     {
         if(Time.timeScale > 0f){
             LookAtPlayer();
+            UpdateDistanceToPlayer();
             if(!secondPhase){
                 if(GetHealthPoints() <= healthBar.GetMaxValue()/2){
                     ActiveSecondPhase();
@@ -47,7 +48,7 @@ public class BelphegorController : EnemyControllerBase
                 Jump(ForceMode2D.Force);
             }
 
-            //HabilityOne();
+            HabilityOne();
         }
     }
 
@@ -56,7 +57,7 @@ public class BelphegorController : EnemyControllerBase
         return isGrounded;
     }
 
-    public void SwordAttack()
+    public void Attack()
     {
         if(canAttack){
             animator.SetTrigger("attack");
@@ -67,16 +68,16 @@ public class BelphegorController : EnemyControllerBase
             lastAttack = Time.time;
         }
         else {
-            if(Time.time >= lastAttack + 1.5f)
+            if(Time.time >= lastAttack + 2.5f)
                 canAttack = true;
         }
         
     }
 
     void HabilityOne(){
-        if (!habilityOneinCooldown && spellBar.GetValue() > 5f){
+        if (!habilityOneinCooldown && spellBar.GetValue() > 5f && playerLanded){
             habilityOneLastCast = Time.time;
-            animator.SetTrigger("cast");
+            animator.SetTrigger("attack");
             this.gameObject.GetComponent<CastHability>().Cast(isFlipped ? -1 : 1, player.transform, 1);
 
             habilityOneinCooldown = true;
@@ -113,6 +114,12 @@ public class BelphegorController : EnemyControllerBase
         }
 
         spellBar.SetValue(spell);
+    }
+
+    private void UpdateDistanceToPlayer()
+    {
+        float distance = Vector2.Distance(player.position, transform.position);
+        animator.SetFloat("distanceToPlayer", distance);
     }
 
     public bool IsPlayerInsideAttackRange()
