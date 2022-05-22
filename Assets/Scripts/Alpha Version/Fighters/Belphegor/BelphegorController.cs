@@ -15,8 +15,17 @@ public class BelphegorController : EnemyControllerBase
     public LayerMask playerLayer;
 
     // Start is called before the first frame update
+
+    public void Awake()
+    {
+        FindObjectOfType<AudioManager>().StopIntro("Intro_intro");
+        FindObjectOfType<AudioManager>().StopLoop("Intro_loop");
+        FindObjectOfType<AudioManager>().IntroPlay("DEEP_TEMPLE_intro");
+        FindObjectOfType<AudioManager>().LoopPlay("DEEP_TEMPLE_loop");
+    }
     void Start()
     {
+
         rigidbody2D = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
 

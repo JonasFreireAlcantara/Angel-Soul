@@ -15,6 +15,11 @@ public class MamonController : EnemyControllerBase
     public LayerMask playerLayer;
 
     // Start is called before the first frame update
+    public void Awake()
+    {
+        FindObjectOfType<AudioManager>().IntroPlay("Mammon_intro");
+        FindObjectOfType<AudioManager>().LoopPlay("Mammon_loop");
+    }
     void Start()
     {
         rigidbody2D = GetComponent<Rigidbody2D>();

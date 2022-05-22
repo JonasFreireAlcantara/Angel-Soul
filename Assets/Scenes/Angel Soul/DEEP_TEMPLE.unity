@@ -513,6 +513,7 @@ GameObject:
   m_Component:
   - component: {fileID: 462104188}
   - component: {fileID: 462104187}
+  - component: {fileID: 462104189}
   m_Layer: 0
   m_Name: SoundManager
   m_TagString: Untagged
@@ -527,7 +528,7 @@ AudioSource:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 462104186}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 66b94700f6f800641bd43621cebe7732, type: 3}
@@ -630,6 +631,30 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &462104189
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 462104186}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 44690e85eca89284ab8a3a1794a9da8c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: DEEP_TEMPLE
+    introIndex: 0
+    clip: {fileID: 0}
+    intro: {fileID: 8300000, guid: 2e77cb6d218e04d4d8638951133e22fc, type: 3}
+    iloop: {fileID: 8300000, guid: 7e42855a850d4d44cb5b1a03159ff732, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+    introAudio: {fileID: 0}
+    loopAudio: {fileID: 0}
 --- !u!1 &480805698
 GameObject:
   m_ObjectHideFlags: 0

@@ -12,6 +12,10 @@ public class MainMenu : MonoBehaviour
     public void PlayGame(string cena)
     {
         SceneManager.LoadScene(cena);
+        FindObjectOfType<AudioManager>().StopIntro("Intro_intro");
+        FindObjectOfType<AudioManager>().StopLoop("Intro_loop");
+        /*FindObjectOfType<AudioManager>().IntroPlay("Mammon_intro");
+        FindObjectOfType<AudioManager>().LoopPlay("Mammon_loop");*/
     }
 
 

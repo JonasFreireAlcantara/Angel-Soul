@@ -878,36 +878,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 970603313}
   m_CullTransparentMesh: 1
---- !u!1 &974809783
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 974809784}
-  m_Layer: 0
-  m_Name: SoundManager
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!4 &974809784
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 974809783}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 927.3677, y: 356.71915, z: -116.42836}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1323645982
 GameObject:
   m_ObjectHideFlags: 0
@@ -1193,7 +1163,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!82 &1521259559
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1674,104 +1644,8 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!82 &3885544065366920938
-AudioSource:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3885544065366920939}
-  m_Enabled: 1
-  serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 398d0111d275e4efa8b4dd56f30883a7, type: 3}
-  m_PlayOnAwake: 1
-  m_Volume: 0.1
-  m_Pitch: 1
-  Loop: 1
-  Mute: 0
-  Spatialize: 0
-  SpatializePostEffects: 0
-  Priority: 128
-  DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 500
-  Pan2D: 0
-  rolloffMode: 0
-  BypassEffects: 0
-  BypassListenerEffects: 0
-  BypassReverbZones: 0
-  rolloffCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    - serializedVersion: 3
-      time: 1
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  panLevelCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  spreadCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  reverbZoneMixCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
 --- !u!1 &3885544065366920939
 GameObject:
   m_ObjectHideFlags: 0
@@ -1781,14 +1655,93 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3885544065366920933}
-  - component: {fileID: 3885544065366920938}
+  - component: {fileID: 3885544065366920940}
   m_Layer: 0
-  m_Name: SoundManager (1)
+  m_Name: SoundManager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &3885544065366920940
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3885544065366920939}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 44690e85eca89284ab8a3a1794a9da8c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: Intro
+    introIndex: 0
+    clip: {fileID: 0}
+    intro: {fileID: 8300000, guid: 418f0ed5c6d4b944ebf00ea9fba61fc3, type: 3}
+    iloop: {fileID: 8300000, guid: 74539c98665d37f43a98cfbe1dad5e0b, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+    introAudio: {fileID: 0}
+    loopAudio: {fileID: 0}
+  - name: Mammon
+    introIndex: 1
+    clip: {fileID: 0}
+    intro: {fileID: 8300000, guid: 81ef5ecfe309943a6a4b4a066ba6e75a, type: 3}
+    iloop: {fileID: 8300000, guid: f99aafe71be9f4d0ebad4095052cb420, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+    introAudio: {fileID: 0}
+    loopAudio: {fileID: 0}
+  - name: Fullmoon
+    introIndex: 2
+    clip: {fileID: 0}
+    intro: {fileID: 8300000, guid: 9c03bb9dff223d0448ca387f44caebfd, type: 3}
+    iloop: {fileID: 8300000, guid: 6c82c9e8085f4df44bfd92e5f19648a5, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+    introAudio: {fileID: 0}
+    loopAudio: {fileID: 0}
+  - name: DEEP_TEMPLE
+    introIndex: 3
+    clip: {fileID: 0}
+    intro: {fileID: 8300000, guid: 2e77cb6d218e04d4d8638951133e22fc, type: 3}
+    iloop: {fileID: 8300000, guid: 7e42855a850d4d44cb5b1a03159ff732, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+    introAudio: {fileID: 0}
+    loopAudio: {fileID: 0}
+  - name: WATER_CAVE
+    introIndex: 4
+    clip: {fileID: 0}
+    intro: {fileID: 8300000, guid: 054b6f38f8e84994aa6e1e0357e18237, type: 3}
+    iloop: {fileID: 8300000, guid: 114268c48af9de74db47c8fe532ac4f2, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+    introAudio: {fileID: 0}
+    loopAudio: {fileID: 0}
+  - name: FINAL_STAGE
+    introIndex: 5
+    clip: {fileID: 0}
+    intro: {fileID: 8300000, guid: 8880a7aaa0a1f2240a99d28da31e597d, type: 3}
+    iloop: {fileID: 8300000, guid: c1c2afbe10f7f15438e97ae90f05d351, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+    introAudio: {fileID: 0}
+    loopAudio: {fileID: 0}
 --- !u!4 &4684323101283295193
 Transform:
   m_ObjectHideFlags: 0

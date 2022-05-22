@@ -11,6 +11,12 @@ public class GamePlay : MonoBehaviour
 
     public string nextScene;
 
+    //Augusto Teste
+    /*public void Start()
+    {
+       /* FindObjectOfType<AudioManager>().IntroPlay("Mammon_intro");
+        FindObjectOfType<AudioManager>().LoopPlay("Mammon_loop");
+    }*/
     public void Update()
     {   
         if (player.GetComponent<FighterControllerBase>().GetHealthPoints() <= 0)
