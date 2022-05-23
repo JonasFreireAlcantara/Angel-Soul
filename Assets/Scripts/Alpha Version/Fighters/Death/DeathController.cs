@@ -43,18 +43,18 @@ public class DeathController : EnemyControllerBase
 
         if (value == 1)
         {
-            DecreaseSpell(30f);
-            if (spell >= 0)
+            if (spell - 30f >= 0)
             {
                 animator.SetTrigger("attackFire");
+                DecreaseSpell(30f);
             }
         }
         else if (value == 2)
         {
-            DecreaseSpell(50);
-            if (spell >= 0)
+            if (spell - 50 >= 0)
             {
                 animator.SetTrigger("attackBall");
+                DecreaseSpell(50);
             }
         }
     }

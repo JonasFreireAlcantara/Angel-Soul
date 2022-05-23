@@ -1,0 +1,2316 @@
+fileFormatVersion: 2
+guid: 1a97b031f2995af798cebddd7fdf4d55
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 394855205227492005
+    second: kisspng-sprite-teleportation-opengameart-org-2d-computer-g-5b1f397f968055.8771848015287729916165_1
+  - first:
+      213: 8328698622281878297
+    second: kisspng-sprite-teleportation-opengameart-org-2d-computer-g-5b1f397f968055.8771848015287729916165_2
+  - first:
+      213: 4323164427997526275
+    second: kisspng-sprite-teleportation-opengameart-org-2d-computer-g-5b1f397f968055.8771848015287729916165_3
+  - first:
+      213: 5337770495832672845
+    second: kisspng-sprite-teleportation-opengameart-org-2d-computer-g-5b1f397f968055.8771848015287729916165_4
+  - first:
+      213: -2100528804189445067
+    second: kisspng-sprite-teleportation-opengameart-org-2d-computer-g-5b1f397f968055.8771848015287729916165_5
+  - first:
+      213: -5278301507401261145
+    second: kisspng-sprite-teleportation-opengameart-org-2d-computer-g-5b1f397f968055.8771848015287729916165_6
+  - first:
+      213: 5083678986671030748
+    second: kisspng-sprite-teleportation-opengameart-org-2d-computer-g-5b1f397f968055.8771848015287729916165_7
+  - first:
+      213: 5784727692308033861
+    second: kisspng-sprite-teleportation-opengameart-org-2d-computer-g-5b1f397f968055.8771848015287729916165_8
+  - first:
+      213: 1976934653153354025
+    second: kisspng-sprite-teleportation-opengameart-org-2d-computer-g-5b1f397f968055.8771848015287729916165_9
+  - first:
+      213: 7295664350709225987
+    second: kisspng-sprite-teleportation-opengameart-org-2d-computer-g-5b1f397f968055.8771848015287729916165_10
+  - first:
+      213: -2684745209533337247
+    second: kisspng-sprite-teleportation-opengameart-org-2d-computer-g-5b1f397f968055.8771848015287729916165_11
+  - first:
+      213: -8167399687461990673
+    second: kisspng-sprite-teleportation-opengameart-org-2d-computer-g-5b1f397f968055.8771848015287729916165_12
+  - first:
+      213: -2369499463371374914
+    second: kisspng-sprite-teleportation-opengameart-org-2d-computer-g-5b1f397f968055.8771848015287729916165_13
+  - first:
+      213: 49228400177343571
+    second: kisspng-sprite-teleportation-opengameart-org-2d-computer-g-5b1f397f968055.8771848015287729916165_14
+  - first:
+      213: 7235850284600929997
+    second: kisspng-sprite-teleportation-opengameart-org-2d-computer-g-5b1f397f968055.8771848015287729916165_15
+  - first:
+      213: -3439050750493520351
+    second: kisspng-sprite-teleportation-opengameart-org-2d-computer-g-5b1f397f968055.8771848015287729916165_16
+  - first:
+      213: 3001687630230782035
+    second: kisspng-sprite-teleportation-opengameart-org-2d-computer-g-5b1f397f968055.8771848015287729916165_17
+  - first:
+      213: 5709546590637835166
+    second: kisspng-sprite-teleportation-opengameart-org-2d-computer-g-5b1f397f968055.8771848015287729916165_18
+  - first:
+      213: 4577886943157831748
+    second: kisspng-sprite-teleportation-opengameart-org-2d-computer-g-5b1f397f968055.8771848015287729916165_19
+  - first:
+      213: 1251610188159738142
+    second: kisspng-sprite-teleportation-opengameart-org-2d-computer-g-5b1f397f968055.8771848015287729916165_20
+  - first:
+      213: -2012805546708381758
+    second: kisspng-sprite-teleportation-opengameart-org-2d-computer-g-5b1f397f968055.8771848015287729916165_21
+  - first:
+      213: 2254058629876739485
+    second: kisspng-sprite-teleportation-opengameart-org-2d-computer-g-5b1f397f968055.8771848015287729916165_22
+  - first:
+      213: 3225279715437726638
+    second: kisspng-sprite-teleportation-opengameart-org-2d-computer-g-5b1f397f968055.8771848015287729916165_23
+  - first:
+      213: -675078402046236122
+    second: kisspng-sprite-teleportation-opengameart-org-2d-computer-g-5b1f397f968055.8771848015287729916165_24
+  - first:
+      213: 3109428723323298181
+    second: kisspng-sprite-teleportation-opengameart-org-2d-computer-g-5b1f397f968055.8771848015287729916165_25
+  - first:
+      213: -1760349383462193117
+    second: kisspng-sprite-teleportation-opengameart-org-2d-computer-g-5b1f397f968055.8771848015287729916165_26
+  - first:
+      213: 8516078463679056794
+    second: kisspng-sprite-teleportation-opengameart-org-2d-computer-g-5b1f397f968055.8771848015287729916165_27
+  - first:
+      213: 7956637093015420385
+    second: kisspng-sprite-teleportation-opengameart-org-2d-computer-g-5b1f397f968055.8771848015287729916165_28
+  - first:
+      213: 7062135645544093502
+    second: kisspng-sprite-teleportation-opengameart-org-2d-computer-g-5b1f397f968055.8771848015287729916165_29
+  - first:
+      213: -1519468424379075883
+    second: kisspng-sprite-teleportation-opengameart-org-2d-computer-g-5b1f397f968055.8771848015287729916165_30
+  - first:
+      213: 3157110569638457888
+    second: kisspng-sprite-teleportation-opengameart-org-2d-computer-g-5b1f397f968055.8771848015287729916165_31
+  - first:
+      213: 8897078750344933025
+    second: kisspng-sprite-teleportation-opengameart-org-2d-computer-g-5b1f397f968055.8771848015287729916165_32
+  - first:
+      213: -6868460669228638891
+    second: kisspng-sprite-teleportation-opengameart-org-2d-computer-g-5b1f397f968055.8771848015287729916165_33
+  - first:
+      213: 7374894853828584285
+    second: kisspng-sprite-teleportation-opengameart-org-2d-computer-g-5b1f397f968055.8771848015287729916165_34
+  - first:
+      213: -2108157820338192037
+    second: kisspng-sprite-teleportation-opengameart-org-2d-computer-g-5b1f397f968055.8771848015287729916165_35
+  - first:
+      213: 1969920998681663516
+    second: kisspng-sprite-teleportation-opengameart-org-2d-computer-g-5b1f397f968055.8771848015287729916165_36
+  - first:
+      213: -4205831550170666340
+    second: kisspng-sprite-teleportation-opengameart-org-2d-computer-g-5b1f397f968055.8771848015287729916165_37
+  - first:
+      213: 7886539011999298090
+    second: kisspng-sprite-teleportation-opengameart-org-2d-computer-g-5b1f397f968055.8771848015287729916165_38
+  - first:
+      213: -5349775095399647714
+    second: kisspng-sprite-teleportation-opengameart-org-2d-computer-g-5b1f397f968055.8771848015287729916165_39
+  - first:
+      213: -3310242546762914530
+    second: kisspng-sprite-teleportation-opengameart-org-2d-computer-g-5b1f397f968055.8771848015287729916165_40
+  - first:
+      213: 4286760113933604804
+    second: kisspng-sprite-teleportation-opengameart-org-2d-computer-g-5b1f397f968055.8771848015287729916165_41
+  - first:
+      213: -2208756716872694118
+    second: kisspng-sprite-teleportation-opengameart-org-2d-computer-g-5b1f397f968055.8771848015287729916165_42
+  - first:
+      213: -4265825921087503677
+    second: kisspng-sprite-teleportation-opengameart-org-2d-computer-g-5b1f397f968055.8771848015287729916165_43
+  - first:
+      213: -3519930191830840264
+    second: kisspng-sprite-teleportation-opengameart-org-2d-computer-g-5b1f397f968055.8771848015287729916165_44
+  - first:
+      213: -7846103404389869648
+    second: kisspng-sprite-teleportation-opengameart-org-2d-computer-g-5b1f397f968055.8771848015287729916165_45
+  - first:
+      213: -860717496591724066
+    second: kisspng-sprite-teleportation-opengameart-org-2d-computer-g-5b1f397f968055.8771848015287729916165_46
+  - first:
+      213: -2534946634902027314
+    second: kisspng-sprite-teleportation-opengameart-org-2d-computer-g-5b1f397f968055.8771848015287729916165_47
+  - first:
+      213: -608390761706746197
+    second: kisspng-sprite-teleportation-opengameart-org-2d-computer-g-5b1f397f968055.8771848015287729916165_48
+  - first:
+      213: -1925935157683994624
+    second: kisspng-sprite-teleportation-opengameart-org-2d-computer-g-5b1f397f968055.8771848015287729916165_49
+  - first:
+      213: 6477947322568214684
+    second: kisspng-sprite-teleportation-opengameart-org-2d-computer-g-5b1f397f968055.8771848015287729916165_50
+  - first:
+      213: 4426525080037291610
+    second: kisspng-sprite-teleportation-opengameart-org-2d-computer-g-5b1f397f968055.8771848015287729916165_51
+  - first:
+      213: -7146714836672376330
+    second: kisspng-sprite-teleportation-opengameart-org-2d-computer-g-5b1f397f968055.8771848015287729916165_52
+  - first:
+      213: -4307861103731018700
+    second: kisspng-sprite-teleportation-opengameart-org-2d-computer-g-5b1f397f968055.8771848015287729916165_53
+  - first:
+      213: 8704336792868032049
+    second: kisspng-sprite-teleportation-opengameart-org-2d-computer-g-5b1f397f968055.8771848015287729916165_54
+  - first:
+      213: -5821521960271205582
+    second: kisspng-sprite-teleportation-opengameart-org-2d-computer-g-5b1f397f968055.8771848015287729916165_55
+  - first:
+      213: -8834287351122184750
+    second: kisspng-sprite-teleportation-opengameart-org-2d-computer-g-5b1f397f968055.8771848015287729916165_56
+  - first:
+      213: -8566137233663441027
+    second: kisspng-sprite-teleportation-opengameart-org-2d-computer-g-5b1f397f968055.8771848015287729916165_57
+  - first:
+      213: 1328086950233844401
+    second: kisspng-sprite-teleportation-opengameart-org-2d-computer-g-5b1f397f968055.8771848015287729916165_58
+  - first:
+      213: 3498468218383089335
+    second: kisspng-sprite-teleportation-opengameart-org-2d-computer-g-5b1f397f968055.8771848015287729916165_59
+  - first:
+      213: 3143115930167009423
+    second: kisspng-sprite-teleportation-opengameart-org-2d-computer-g-5b1f397f968055.8771848015287729916165_60
+  - first:
+      213: 1349172383290477936
+    second: kisspng-sprite-teleportation-opengameart-org-2d-computer-g-5b1f397f968055.8771848015287729916165_61
+  - first:
+      213: -6741306122573432427
+    second: kisspng-sprite-teleportation-opengameart-org-2d-computer-g-5b1f397f968055.8771848015287729916165_62
+  - first:
+      213: -2902068753322719614
+    second: kisspng-sprite-teleportation-opengameart-org-2d-computer-g-5b1f397f968055.8771848015287729916165_63
+  - first:
+      213: -7173582967757430175
+    second: kisspng-sprite-teleportation-opengameart-org-2d-computer-g-5b1f397f968055.8771848015287729916165_64
+  - first:
+      213: -7768018363521063366
+    second: kisspng-sprite-teleportation-opengameart-org-2d-computer-g-5b1f397f968055.8771848015287729916165_65
+  - first:
+      213: -9080555013156338127
+    second: kisspng-sprite-teleportation-opengameart-org-2d-computer-g-5b1f397f968055.8771848015287729916165_66
+  - first:
+      213: -4752675161500254140
+    second: kisspng-sprite-teleportation-opengameart-org-2d-computer-g-5b1f397f968055.8771848015287729916165_67
+  - first:
+      213: -8321770085249488638
+    second: kisspng-sprite-teleportation-opengameart-org-2d-computer-g-5b1f397f968055.8771848015287729916165_68
+  - first:
+      213: -3561999626220796221
+    second: kisspng-sprite-teleportation-opengameart-org-2d-computer-g-5b1f397f968055.8771848015287729916165_69
+  - first:
+      213: 2367798732990618004
+    second: kisspng-sprite-teleportation-opengameart-org-2d-computer-g-5b1f397f968055.8771848015287729916165_70
+  - first:
+      213: -958127580905647384
+    second: kisspng-sprite-teleportation-opengameart-org-2d-computer-g-5b1f397f968055.8771848015287729916165_71
+  - first:
+      213: -7574091516581415853
+    second: kisspng-sprite-teleportation-opengameart-org-2d-computer-g-5b1f397f968055.8771848015287729916165_72
+  - first:
+      213: 6430327653055711642
+    second: kisspng-sprite-teleportation-opengameart-org-2d-computer-g-5b1f397f968055.8771848015287729916165_73
+  - first:
+      213: -7675715823929824913
+    second: kisspng-sprite-teleportation-opengameart-org-2d-computer-g-5b1f397f968055.8771848015287729916165_74
+  - first:
+      213: 5922892175604245867
+    second: kisspng-sprite-teleportation-opengameart-org-2d-computer-g-5b1f397f968055.8771848015287729916165_75
+  - first:
+      213: 8984821231332179441
+    second: kisspng-sprite-teleportation-opengameart-org-2d-computer-g-5b1f397f968055.8771848015287729916165_76
+  - first:
+      213: -4168817179619615403
+    second: kisspng-sprite-teleportation-opengameart-org-2d-computer-g-5b1f397f968055.8771848015287729916165_77
+  - first:
+      213: -8513359952961810461
+    second: kisspng-sprite-teleportation-opengameart-org-2d-computer-g-5b1f397f968055.8771848015287729916165_78
+  - first:
+      213: 1203421078847026937
+    second: kisspng-sprite-teleportation-opengameart-org-2d-computer-g-5b1f397f968055.8771848015287729916165_79
+  - first:
+      213: -7545097269782678004
+    second: kisspng-sprite-teleportation-opengameart-org-2d-computer-g-5b1f397f968055.8771848015287729916165_80
+  - first:
+      213: 4254604398666642055
+    second: kisspng-sprite-teleportation-opengameart-org-2d-computer-g-5b1f397f968055.8771848015287729916165_81
+  - first:
+      213: 551985763489596483
+    second: kisspng-sprite-teleportation-opengameart-org-2d-computer-g-5b1f397f968055.8771848015287729916165_82
+  - first:
+      213: 252603522612144120
+    second: kisspng-sprite-teleportation-opengameart-org-2d-computer-g-5b1f397f968055.8771848015287729916165_83
+  - first:
+      213: 2525336621142180922
+    second: kisspng-sprite-teleportation-opengameart-org-2d-computer-g-5b1f397f968055.8771848015287729916165_84
+  - first:
+      213: -8301915073641607231
+    second: kisspng-sprite-teleportation-opengameart-org-2d-computer-g-5b1f397f968055.8771848015287729916165_85
+  - first:
+      213: -534756679599433233
+    second: kisspng-sprite-teleportation-opengameart-org-2d-computer-g-5b1f397f968055.8771848015287729916165_86
+  - first:
+      213: -6643076503905024175
+    second: kisspng-sprite-teleportation-opengameart-org-2d-computer-g-5b1f397f968055.8771848015287729916165_87
+  - first:
+      213: 4342715890092091381
+    second: kisspng-sprite-teleportation-opengameart-org-2d-computer-g-5b1f397f968055.8771848015287729916165_88
+  - first:
+      213: -1195444446283768007
+    second: kisspng-sprite-teleportation-opengameart-org-2d-computer-g-5b1f397f968055.8771848015287729916165_89
+  - first:
+      213: -3038094298653084227
+    second: kisspng-sprite-teleportation-opengameart-org-2d-computer-g-5b1f397f968055.8771848015287729916165_90
+  - first:
+      213: -1209308210869900221
+    second: kisspng-sprite-teleportation-opengameart-org-2d-computer-g-5b1f397f968055.8771848015287729916165_91
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: kisspng-sprite-teleportation-opengameart-org-2d-computer-g-5b1f397f968055.8771848015287729916165_1
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 2892
+        width: 93
+        height: 87
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a27c4597beca7500800000000000000
+      internalID: 394855205227492005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-sprite-teleportation-opengameart-org-2d-computer-g-5b1f397f968055.8771848015287729916165_2
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 2894
+        width: 95
+        height: 101
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91b8566054b759370800000000000000
+      internalID: 8328698622281878297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-sprite-teleportation-opengameart-org-2d-computer-g-5b1f397f968055.8771848015287729916165_3
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 2892
+        width: 100
+        height: 119
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 309b5646427fefb30800000000000000
+      internalID: 4323164427997526275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-sprite-teleportation-opengameart-org-2d-computer-g-5b1f397f968055.8771848015287729916165_4
+      rect:
+        serializedVersion: 2
+        x: 1021
+        y: 2892
+        width: 102
+        height: 135
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4acaa83cf1931a40800000000000000
+      internalID: 5337770495832672845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-sprite-teleportation-opengameart-org-2d-computer-g-5b1f397f968055.8771848015287729916165_5
+      rect:
+        serializedVersion: 2
+        x: 1259
+        y: 2889
+        width: 107
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 534efc18e2c69d2e0800000000000000
+      internalID: -2100528804189445067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-sprite-teleportation-opengameart-org-2d-computer-g-5b1f397f968055.8771848015287729916165_6
+      rect:
+        serializedVersion: 2
+        x: 1496
+        y: 2891
+        width: 112
+        height: 167
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7af50f1aeb4bfb6b0800000000000000
+      internalID: -5278301507401261145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-sprite-teleportation-opengameart-org-2d-computer-g-5b1f397f968055.8771848015287729916165_7
+      rect:
+        serializedVersion: 2
+        x: 1734
+        y: 2891
+        width: 116
+        height: 181
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd105a89a1bdc8640800000000000000
+      internalID: 5083678986671030748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-sprite-teleportation-opengameart-org-2d-computer-g-5b1f397f968055.8771848015287729916165_8
+      rect:
+        serializedVersion: 2
+        x: 1971
+        y: 2892
+        width: 122
+        height: 193
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 541b266ff2b774050800000000000000
+      internalID: 5784727692308033861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-sprite-teleportation-opengameart-org-2d-computer-g-5b1f397f968055.8771848015287729916165_9
+      rect:
+        serializedVersion: 2
+        x: 2207
+        y: 2891
+        width: 129
+        height: 211
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 921ad51c79b7f6b10800000000000000
+      internalID: 1976934653153354025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-sprite-teleportation-opengameart-org-2d-computer-g-5b1f397f968055.8771848015287729916165_10
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 2572
+        width: 133
+        height: 225
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30a1188a2186f3560800000000000000
+      internalID: 7295664350709225987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-sprite-teleportation-opengameart-org-2d-computer-g-5b1f397f968055.8771848015287729916165_11
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 2570
+        width: 138
+        height: 241
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1617551d47eddbad0800000000000000
+      internalID: -2684745209533337247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-sprite-teleportation-opengameart-org-2d-computer-g-5b1f397f968055.8771848015287729916165_12
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 2570
+        width: 142
+        height: 254
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fee013ac14197ae80800000000000000
+      internalID: -8167399687461990673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-sprite-teleportation-opengameart-org-2d-computer-g-5b1f397f968055.8771848015287729916165_13
+      rect:
+        serializedVersion: 2
+        x: 757
+        y: 2570
+        width: 148
+        height: 263
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebe354ecac8dd1fd0800000000000000
+      internalID: -2369499463371374914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-sprite-teleportation-opengameart-org-2d-computer-g-5b1f397f968055.8771848015287729916165_14
+      rect:
+        serializedVersion: 2
+        x: 996
+        y: 2570
+        width: 151
+        height: 263
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35c6e6918f4eea000800000000000000
+      internalID: 49228400177343571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-sprite-teleportation-opengameart-org-2d-computer-g-5b1f397f968055.8771848015287729916165_15
+      rect:
+        serializedVersion: 2
+        x: 1232
+        y: 2570
+        width: 154
+        height: 263
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dce2c852f77ea6460800000000000000
+      internalID: 7235850284600929997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-sprite-teleportation-opengameart-org-2d-computer-g-5b1f397f968055.8771848015287729916165_16
+      rect:
+        serializedVersion: 2
+        x: 1471
+        y: 2570
+        width: 153
+        height: 265
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12e0b4430990640d0800000000000000
+      internalID: -3439050750493520351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-sprite-teleportation-opengameart-org-2d-computer-g-5b1f397f968055.8771848015287729916165_17
+      rect:
+        serializedVersion: 2
+        x: 1711
+        y: 2570
+        width: 153
+        height: 265
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 350079efef228a920800000000000000
+      internalID: 3001687630230782035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-sprite-teleportation-opengameart-org-2d-computer-g-5b1f397f968055.8771848015287729916165_18
+      rect:
+        serializedVersion: 2
+        x: 1951
+        y: 2570
+        width: 153
+        height: 265
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e93c28baf526c3f40800000000000000
+      internalID: 5709546590637835166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-sprite-teleportation-opengameart-org-2d-computer-g-5b1f397f968055.8771848015287729916165_19
+      rect:
+        serializedVersion: 2
+        x: 2191
+        y: 2570
+        width: 156
+        height: 271
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44842dc8bebe78f30800000000000000
+      internalID: 4577886943157831748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-sprite-teleportation-opengameart-org-2d-computer-g-5b1f397f968055.8771848015287729916165_20
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 2248
+        width: 157
+        height: 274
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e116586b5dc9e5110800000000000000
+      internalID: 1251610188159738142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-sprite-teleportation-opengameart-org-2d-computer-g-5b1f397f968055.8771848015287729916165_21
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 2249
+        width: 155
+        height: 273
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cfc28205041114e0800000000000000
+      internalID: -2012805546708381758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-sprite-teleportation-opengameart-org-2d-computer-g-5b1f397f968055.8771848015287729916165_22
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 2250
+        width: 159
+        height: 272
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9de4b0a166084f10800000000000000
+      internalID: 2254058629876739485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-sprite-teleportation-opengameart-org-2d-computer-g-5b1f397f968055.8771848015287729916165_23
+      rect:
+        serializedVersion: 2
+        x: 747
+        y: 2249
+        width: 160
+        height: 280
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eab40fb10de72cc20800000000000000
+      internalID: 3225279715437726638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-sprite-teleportation-opengameart-org-2d-computer-g-5b1f397f968055.8771848015287729916165_24
+      rect:
+        serializedVersion: 2
+        x: 992
+        y: 2252
+        width: 159
+        height: 281
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62aee7225c3a1a6f0800000000000000
+      internalID: -675078402046236122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-sprite-teleportation-opengameart-org-2d-computer-g-5b1f397f968055.8771848015287729916165_25
+      rect:
+        serializedVersion: 2
+        x: 1228
+        y: 2249
+        width: 159
+        height: 280
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 581e41c03f8e62b20800000000000000
+      internalID: 3109428723323298181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-sprite-teleportation-opengameart-org-2d-computer-g-5b1f397f968055.8771848015287729916165_26
+      rect:
+        serializedVersion: 2
+        x: 1467
+        y: 2250
+        width: 161
+        height: 281
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 328782eff8bf197e0800000000000000
+      internalID: -1760349383462193117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-sprite-teleportation-opengameart-org-2d-computer-g-5b1f397f968055.8771848015287729916165_27
+      rect:
+        serializedVersion: 2
+        x: 1709
+        y: 2248
+        width: 159
+        height: 289
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9bc1fa1e303f2670800000000000000
+      internalID: 8516078463679056794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-sprite-teleportation-opengameart-org-2d-computer-g-5b1f397f968055.8771848015287729916165_28
+      rect:
+        serializedVersion: 2
+        x: 1948
+        y: 2248
+        width: 160
+        height: 291
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ed71efa747ab6e60800000000000000
+      internalID: 7956637093015420385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-sprite-teleportation-opengameart-org-2d-computer-g-5b1f397f968055.8771848015287729916165_29
+      rect:
+        serializedVersion: 2
+        x: 2188
+        y: 2248
+        width: 161
+        height: 295
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e37974ce3feb10260800000000000000
+      internalID: 7062135645544093502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-sprite-teleportation-opengameart-org-2d-computer-g-5b1f397f968055.8771848015287729916165_30
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 1929
+        width: 169
+        height: 293
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d2767db483c9eae0800000000000000
+      internalID: -1519468424379075883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-sprite-teleportation-opengameart-org-2d-computer-g-5b1f397f968055.8771848015287729916165_31
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 1929
+        width: 171
+        height: 296
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0227ee3065f40db20800000000000000
+      internalID: 3157110569638457888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-sprite-teleportation-opengameart-org-2d-computer-g-5b1f397f968055.8771848015287729916165_32
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 1928
+        width: 167
+        height: 296
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ae6cf41cf5c87b70800000000000000
+      internalID: 8897078750344933025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-sprite-teleportation-opengameart-org-2d-computer-g-5b1f397f968055.8771848015287729916165_33
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 1928
+        width: 167
+        height: 302
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55d92e879635ea0a0800000000000000
+      internalID: -6868460669228638891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-sprite-teleportation-opengameart-org-2d-computer-g-5b1f397f968055.8771848015287729916165_34
+      rect:
+        serializedVersion: 2
+        x: 982
+        y: 1928
+        width: 170
+        height: 301
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d532f42bbc3e85660800000000000000
+      internalID: 7374894853828584285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-sprite-teleportation-opengameart-org-2d-computer-g-5b1f397f968055.8771848015287729916165_35
+      rect:
+        serializedVersion: 2
+        x: 1222
+        y: 1928
+        width: 169
+        height: 302
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b51c744c1a15eb2e0800000000000000
+      internalID: -2108157820338192037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-sprite-teleportation-opengameart-org-2d-computer-g-5b1f397f968055.8771848015287729916165_36
+      rect:
+        serializedVersion: 2
+        x: 1461
+        y: 1929
+        width: 169
+        height: 301
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c18d00216b0965b10800000000000000
+      internalID: 1969920998681663516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-sprite-teleportation-opengameart-org-2d-computer-g-5b1f397f968055.8771848015287729916165_37
+      rect:
+        serializedVersion: 2
+        x: 1702
+        y: 1930
+        width: 169
+        height: 299
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9a62f21d72e1a5c0800000000000000
+      internalID: -4205831550170666340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-sprite-teleportation-opengameart-org-2d-computer-g-5b1f397f968055.8771848015287729916165_38
+      rect:
+        serializedVersion: 2
+        x: 1942
+        y: 1928
+        width: 169
+        height: 302
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a227a7d527d927d60800000000000000
+      internalID: 7886539011999298090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-sprite-teleportation-opengameart-org-2d-computer-g-5b1f397f968055.8771848015287729916165_39
+      rect:
+        serializedVersion: 2
+        x: 2182
+        y: 1928
+        width: 170
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e16f87225e7c1c5b0800000000000000
+      internalID: -5349775095399647714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-sprite-teleportation-opengameart-org-2d-computer-g-5b1f397f968055.8771848015287729916165_40
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 1608
+        width: 169
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e15efcf21f7af02d0800000000000000
+      internalID: -3310242546762914530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-sprite-teleportation-opengameart-org-2d-computer-g-5b1f397f968055.8771848015287729916165_41
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 1609
+        width: 167
+        height: 302
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c753548c91ad7b30800000000000000
+      internalID: 4286760113933604804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-sprite-teleportation-opengameart-org-2d-computer-g-5b1f397f968055.8771848015287729916165_42
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 1609
+        width: 169
+        height: 303
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a968b8fe77be851e0800000000000000
+      internalID: -2208756716872694118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-sprite-teleportation-opengameart-org-2d-computer-g-5b1f397f968055.8771848015287729916165_43
+      rect:
+        serializedVersion: 2
+        x: 743
+        y: 1609
+        width: 168
+        height: 302
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c20de31dedbcc4c0800000000000000
+      internalID: -4265825921087503677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-sprite-teleportation-opengameart-org-2d-computer-g-5b1f397f968055.8771848015287729916165_44
+      rect:
+        serializedVersion: 2
+        x: 983
+        y: 1609
+        width: 168
+        height: 302
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83c00c1d322b62fc0800000000000000
+      internalID: -3519930191830840264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-sprite-teleportation-opengameart-org-2d-computer-g-5b1f397f968055.8771848015287729916165_45
+      rect:
+        serializedVersion: 2
+        x: 1225
+        y: 1609
+        width: 166
+        height: 302
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b7db5e268a0d1390800000000000000
+      internalID: -7846103404389869648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-sprite-teleportation-opengameart-org-2d-computer-g-5b1f397f968055.8771848015287729916165_46
+      rect:
+        serializedVersion: 2
+        x: 1466
+        y: 1611
+        width: 166
+        height: 300
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed1dfa34ffd1e04f0800000000000000
+      internalID: -860717496591724066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-sprite-teleportation-opengameart-org-2d-computer-g-5b1f397f968055.8771848015287729916165_47
+      rect:
+        serializedVersion: 2
+        x: 1703
+        y: 1611
+        width: 169
+        height: 300
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec3c71e577f02dcd0800000000000000
+      internalID: -2534946634902027314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-sprite-teleportation-opengameart-org-2d-computer-g-5b1f397f968055.8771848015287729916165_48
+      rect:
+        serializedVersion: 2
+        x: 1942
+        y: 1611
+        width: 172
+        height: 300
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bae07db53df8e87f0800000000000000
+      internalID: -608390761706746197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-sprite-teleportation-opengameart-org-2d-computer-g-5b1f397f968055.8771848015287729916165_49
+      rect:
+        serializedVersion: 2
+        x: 2182
+        y: 1611
+        width: 172
+        height: 300
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0004fc99d24b545e0800000000000000
+      internalID: -1925935157683994624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-sprite-teleportation-opengameart-org-2d-computer-g-5b1f397f968055.8771848015287729916165_50
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 1291
+        width: 170
+        height: 301
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c980f5ba4ca46e950800000000000000
+      internalID: 6477947322568214684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-sprite-teleportation-opengameart-org-2d-computer-g-5b1f397f968055.8771848015287729916165_51
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 1291
+        width: 169
+        height: 300
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a56faf88b1d2e6d30800000000000000
+      internalID: 4426525080037291610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-sprite-teleportation-opengameart-org-2d-computer-g-5b1f397f968055.8771848015287729916165_52
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 1289
+        width: 170
+        height: 302
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f1112198b4c1dc90800000000000000
+      internalID: -7146714836672376330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-sprite-teleportation-opengameart-org-2d-computer-g-5b1f397f968055.8771848015287729916165_53
+      rect:
+        serializedVersion: 2
+        x: 745
+        y: 1289
+        width: 169
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 434f36276276734c0800000000000000
+      internalID: -4307861103731018700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-sprite-teleportation-opengameart-org-2d-computer-g-5b1f397f968055.8771848015287729916165_54
+      rect:
+        serializedVersion: 2
+        x: 984
+        y: 1289
+        width: 170
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13e034012340cc870800000000000000
+      internalID: 8704336792868032049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-sprite-teleportation-opengameart-org-2d-computer-g-5b1f397f968055.8771848015287729916165_55
+      rect:
+        serializedVersion: 2
+        x: 1225
+        y: 1289
+        width: 168
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23b26e1fe9cc53fa0800000000000000
+      internalID: -5821521960271205582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-sprite-teleportation-opengameart-org-2d-computer-g-5b1f397f968055.8771848015287729916165_56
+      rect:
+        serializedVersion: 2
+        x: 1464
+        y: 1289
+        width: 169
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d5b2a0d57e466580800000000000000
+      internalID: -8834287351122184750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-sprite-teleportation-opengameart-org-2d-computer-g-5b1f397f968055.8771848015287729916165_57
+      rect:
+        serializedVersion: 2
+        x: 1703
+        y: 1289
+        width: 169
+        height: 303
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d774e324297fe1980800000000000000
+      internalID: -8566137233663441027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-sprite-teleportation-opengameart-org-2d-computer-g-5b1f397f968055.8771848015287729916165_58
+      rect:
+        serializedVersion: 2
+        x: 1945
+        y: 1289
+        width: 168
+        height: 303
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ba25837b005e6210800000000000000
+      internalID: 1328086950233844401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-sprite-teleportation-opengameart-org-2d-computer-g-5b1f397f968055.8771848015287729916165_59
+      rect:
+        serializedVersion: 2
+        x: 2184
+        y: 1289
+        width: 169
+        height: 302
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7beb7b61f4e0d8030800000000000000
+      internalID: 3498468218383089335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-sprite-teleportation-opengameart-org-2d-computer-g-5b1f397f968055.8771848015287729916165_60
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 970
+        width: 169
+        height: 302
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f80e97919479e9b20800000000000000
+      internalID: 3143115930167009423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-sprite-teleportation-opengameart-org-2d-computer-g-5b1f397f968055.8771848015287729916165_61
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 970
+        width: 169
+        height: 302
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07dcbc6622939b210800000000000000
+      internalID: 1349172383290477936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-sprite-teleportation-opengameart-org-2d-computer-g-5b1f397f968055.8771848015287729916165_62
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 970
+        width: 167
+        height: 302
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59938d96cc11272a0800000000000000
+      internalID: -6741306122573432427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-sprite-teleportation-opengameart-org-2d-computer-g-5b1f397f968055.8771848015287729916165_63
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 970
+        width: 170
+        height: 302
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 286407c38d7c9b7d0800000000000000
+      internalID: -2902068753322719614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-sprite-teleportation-opengameart-org-2d-computer-g-5b1f397f968055.8771848015287729916165_64
+      rect:
+        serializedVersion: 2
+        x: 982
+        y: 970
+        width: 171
+        height: 302
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 162a6005c40527c90800000000000000
+      internalID: -7173582967757430175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-sprite-teleportation-opengameart-org-2d-computer-g-5b1f397f968055.8771848015287729916165_65
+      rect:
+        serializedVersion: 2
+        x: 1223
+        y: 970
+        width: 170
+        height: 302
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a36ad918474723490800000000000000
+      internalID: -7768018363521063366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-sprite-teleportation-opengameart-org-2d-computer-g-5b1f397f968055.8771848015287729916165_66
+      rect:
+        serializedVersion: 2
+        x: 1463
+        y: 970
+        width: 170
+        height: 302
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1368c6d83536bf180800000000000000
+      internalID: -9080555013156338127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-sprite-teleportation-opengameart-org-2d-computer-g-5b1f397f968055.8771848015287729916165_67
+      rect:
+        serializedVersion: 2
+        x: 1703
+        y: 968
+        width: 169
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44084f11f1b1b0eb0800000000000000
+      internalID: -4752675161500254140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-sprite-teleportation-opengameart-org-2d-computer-g-5b1f397f968055.8771848015287729916165_68
+      rect:
+        serializedVersion: 2
+        x: 1942
+        y: 970
+        width: 170
+        height: 302
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2096b36b232238c80800000000000000
+      internalID: -8321770085249488638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-sprite-teleportation-opengameart-org-2d-computer-g-5b1f397f968055.8771848015287729916165_69
+      rect:
+        serializedVersion: 2
+        x: 2182
+        y: 970
+        width: 170
+        height: 302
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c60905563c319ec0800000000000000
+      internalID: -3561999626220796221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-sprite-teleportation-opengameart-org-2d-computer-g-5b1f397f968055.8771848015287729916165_70
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 649
+        width: 173
+        height: 303
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 499968b076c1cd020800000000000000
+      internalID: 2367798732990618004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-sprite-teleportation-opengameart-org-2d-computer-g-5b1f397f968055.8771848015287729916165_71
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 649
+        width: 172
+        height: 303
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e25d92aa0c04b2f0800000000000000
+      internalID: -958127580905647384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-sprite-teleportation-opengameart-org-2d-computer-g-5b1f397f968055.8771848015287729916165_72
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 650
+        width: 171
+        height: 302
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3547dd915eb63e690800000000000000
+      internalID: -7574091516581415853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-sprite-teleportation-opengameart-org-2d-computer-g-5b1f397f968055.8771848015287729916165_73
+      rect:
+        serializedVersion: 2
+        x: 741
+        y: 649
+        width: 172
+        height: 303
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a99c1cd5eec1d3950800000000000000
+      internalID: 6430327653055711642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-sprite-teleportation-opengameart-org-2d-computer-g-5b1f397f968055.8771848015287729916165_74
+      rect:
+        serializedVersion: 2
+        x: 913
+        y: 807
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6961d530216a7590800000000000000
+      internalID: -7675715823929824913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-sprite-teleportation-opengameart-org-2d-computer-g-5b1f397f968055.8771848015287729916165_75
+      rect:
+        serializedVersion: 2
+        x: 982
+        y: 648
+        width: 170
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b65e4d98d07523250800000000000000
+      internalID: 5922892175604245867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-sprite-teleportation-opengameart-org-2d-computer-g-5b1f397f968055.8771848015287729916165_76
+      rect:
+        serializedVersion: 2
+        x: 1222
+        y: 649
+        width: 172
+        height: 303
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fd31f76e4f70bc70800000000000000
+      internalID: 8984821231332179441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-sprite-teleportation-opengameart-org-2d-computer-g-5b1f397f968055.8771848015287729916165_77
+      rect:
+        serializedVersion: 2
+        x: 1461
+        y: 649
+        width: 170
+        height: 303
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55d1a3bccd26526c0800000000000000
+      internalID: -4168817179619615403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-sprite-teleportation-opengameart-org-2d-computer-g-5b1f397f968055.8771848015287729916165_78
+      rect:
+        serializedVersion: 2
+        x: 1702
+        y: 648
+        width: 170
+        height: 306
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3efccae7a387ad980800000000000000
+      internalID: -8513359952961810461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-sprite-teleportation-opengameart-org-2d-computer-g-5b1f397f968055.8771848015287729916165_79
+      rect:
+        serializedVersion: 2
+        x: 1939
+        y: 649
+        width: 172
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f6f4ef581963b010800000000000000
+      internalID: 1203421078847026937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-sprite-teleportation-opengameart-org-2d-computer-g-5b1f397f968055.8771848015287729916165_80
+      rect:
+        serializedVersion: 2
+        x: 2180
+        y: 648
+        width: 172
+        height: 305
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0675de320e6a4790800000000000000
+      internalID: -7545097269782678004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-sprite-teleportation-opengameart-org-2d-computer-g-5b1f397f968055.8771848015287729916165_81
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 328
+        width: 171
+        height: 305
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 782f652a8246b0b30800000000000000
+      internalID: 4254604398666642055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-sprite-teleportation-opengameart-org-2d-computer-g-5b1f397f968055.8771848015287729916165_82
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 329
+        width: 174
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 344ced9902c09a700800000000000000
+      internalID: 551985763489596483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-sprite-teleportation-opengameart-org-2d-computer-g-5b1f397f968055.8771848015287729916165_83
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 329
+        width: 172
+        height: 303
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f72f42c09d618300800000000000000
+      internalID: 252603522612144120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-sprite-teleportation-opengameart-org-2d-computer-g-5b1f397f968055.8771848015287729916165_84
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 329
+        width: 173
+        height: 302
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a340771f64ccb0320800000000000000
+      internalID: 2525336621142180922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-sprite-teleportation-opengameart-org-2d-computer-g-5b1f397f968055.8771848015287729916165_85
+      rect:
+        serializedVersion: 2
+        x: 980
+        y: 330
+        width: 173
+        height: 301
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cf8128d93ca9cc80800000000000000
+      internalID: -8301915073641607231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-sprite-teleportation-opengameart-org-2d-computer-g-5b1f397f968055.8771848015287729916165_86
+      rect:
+        serializedVersion: 2
+        x: 1220
+        y: 330
+        width: 173
+        height: 302
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe9553712a92498f0800000000000000
+      internalID: -534756679599433233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-sprite-teleportation-opengameart-org-2d-computer-g-5b1f397f968055.8771848015287729916165_87
+      rect:
+        serializedVersion: 2
+        x: 1461
+        y: 331
+        width: 172
+        height: 300
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1574ff0cd1d0fc3a0800000000000000
+      internalID: -6643076503905024175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-sprite-teleportation-opengameart-org-2d-computer-g-5b1f397f968055.8771848015287729916165_88
+      rect:
+        serializedVersion: 2
+        x: 1701
+        y: 331
+        width: 171
+        height: 299
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f72265e71d644c30800000000000000
+      internalID: 4342715890092091381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-sprite-teleportation-opengameart-org-2d-computer-g-5b1f397f968055.8771848015287729916165_89
+      rect:
+        serializedVersion: 2
+        x: 1941
+        y: 331
+        width: 170
+        height: 299
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93fda8e1c9de86fe0800000000000000
+      internalID: -1195444446283768007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-sprite-teleportation-opengameart-org-2d-computer-g-5b1f397f968055.8771848015287729916165_90
+      rect:
+        serializedVersion: 2
+        x: 2181
+        y: 331
+        width: 171
+        height: 299
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db5b4a6f45586d5d0800000000000000
+      internalID: -3038094298653084227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-sprite-teleportation-opengameart-org-2d-computer-g-5b1f397f968055.8771848015287729916165_91
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 23
+        width: 168
+        height: 285
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34ce223e69ca73fe0800000000000000
+      internalID: -1209308210869900221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
