@@ -1190,6 +1190,10 @@ PrefabInstance:
       value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 6208017611295907018, guid: c5f0810e35066bbc389644c889ab2aa8, type: 3}
+      propertyPath: speed
+      value: 250
+      objectReference: {fileID: 0}
+    - target: {fileID: 6208017611295907018, guid: c5f0810e35066bbc389644c889ab2aa8, type: 3}
       propertyPath: spellBar
       value: 
       objectReference: {fileID: 956538325}
@@ -1290,7 +1294,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   habilities:
   - {fileID: 6340277849360577382, guid: b27f2b1fe11c1d648b8b8476530cdb99, type: 3}
-  - {fileID: 6062439267377014638, guid: 093117f96c78b494688ab5b4bdd3a2de, type: 3}
+  - {fileID: 2742770771779874208, guid: 093117f96c78b494688ab5b4bdd3a2de, type: 3}
 --- !u!212 &1059433434
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2463,7 +2467,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 881396365738061336, guid: f590dd66f82cb0815b2fc7410895c6d6, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
-      value: 3
+      value: Mammon_Stage
       objectReference: {fileID: 0}
     - target: {fileID: 881396366808736965, guid: f590dd66f82cb0815b2fc7410895c6d6, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target

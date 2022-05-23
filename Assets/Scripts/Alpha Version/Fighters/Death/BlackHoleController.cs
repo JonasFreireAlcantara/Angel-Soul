@@ -5,7 +5,7 @@ using UnityEngine;
 public class BlackHoleController : MonoBehaviour
 {
     public float speed;
-    public float amountOfDamagePerFrame = 2f;
+    public float amountOfDamagePerFrame = 0.5f;
 
     private Transform playerTransform;
     private Transform enemyTransform;
@@ -15,6 +15,7 @@ public class BlackHoleController : MonoBehaviour
     void Update()
     {
         FloatTowardPlayer();
+        framesToLive--;
 
         if (framesToLive <= 0)
         {

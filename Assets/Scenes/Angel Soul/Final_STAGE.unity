@@ -1912,7 +1912,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 4.4
+  orthographic size: 5
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -1978,7 +1978,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2736555759730685074}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -7.6552086, y: -1.2600001, z: -10}
+  m_LocalPosition: {x: -7.867778, y: -1.1400001, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -2496,7 +2496,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: Menu Inicial
+          m_StringArgument: Ending
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!224 &3616384630205851135
@@ -3025,7 +3025,7 @@ RectTransform:
   m_GameObject: {fileID: 3616384631257788221}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 14, y: 14, z: 14}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 14}
   m_Children:
   - {fileID: 3616384629893966898}
   - {fileID: 3616384631217883889}
@@ -3179,7 +3179,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4807263717548206151}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -7.6552086, y: -1.2600001, z: -10}
+  m_LocalPosition: {x: -7.867778, y: -1.1400001, z: -10}
   m_LocalScale: {x: 2, y: 2, z: 1}
   m_Children:
   - {fileID: 4807263719127900034}
@@ -3208,14 +3208,14 @@ MonoBehaviour:
   m_Follow: {fileID: 8652872289373614847}
   m_Lens:
     FieldOfView: 60
-    OrthographicSize: 4.4
+    OrthographicSize: 5
     NearClipPlane: 0.3
     FarClipPlane: 1000
     Dutch: 0
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 1.7786459, y: 1}
+    m_SensorSize: {x: 1.7777778, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -6668,7 +6668,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   life: 500
   spell: 50
-  speed: 1000
+  speed: 250
   jumpForce: 12.5
   animator: {fileID: 8652872289373614833}
   healthBar: {fileID: 5453820783185454252}

@@ -29,4 +29,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Angel Soul/Final_STAGE.unity
     guid: 6395eba149297be4ca246e38d9b798c1
+  - enabled: 1
+    path: Assets/Scenes/Angel Soul/Ending.unity
+    guid: e1ca45f9de0f1764783b2dc58aec6820
   m_configObjects: {}

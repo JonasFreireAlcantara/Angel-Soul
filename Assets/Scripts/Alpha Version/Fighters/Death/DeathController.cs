@@ -27,7 +27,7 @@ public class DeathController : EnemyControllerBase
 
     void Update()
     {
-        IncreaseSpell(0.025f);
+        IncreaseSpell(0.05f);
         UpdateDistanceToPlayer();
     }
 

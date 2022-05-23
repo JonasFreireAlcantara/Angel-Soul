@@ -10,6 +10,13 @@ public class LucipherController : EnemyControllerBase
     public Animator teletransportAnimator;
     private bool isTeletransporting = false;
 
+    public void Awake()
+    {
+        FindObjectOfType<AudioManager>().StopIntro("Fullmoon_intro");
+        FindObjectOfType<AudioManager>().StopLoop("Fullmoon_loop");
+        FindObjectOfType<AudioManager>().IntroPlay("FINAL_STAGE_intro");
+        FindObjectOfType<AudioManager>().LoopPlay("FINAL_STAGE_loop");
+    }
     void Start()
     {
         rigidbody2D = GetComponent<Rigidbody2D>();
@@ -22,7 +29,7 @@ public class LucipherController : EnemyControllerBase
     // Update is called once per frame
     void Update()
     {
-        IncreaseSpell(0.1f);
+        IncreaseSpell(0.2f);
         LookAtPlayer();
         UpdateDistanceToPlayer();
 

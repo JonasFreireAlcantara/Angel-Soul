@@ -39,10 +39,10 @@ public class BelphegorBaseAttackAction : MonoBehaviour
             Dismiss();
             CassielController cc = other.gameObject.GetComponent<CassielController>();
             if(cc.isDefending){
-                cc.DecreaseLife(30f);
+                cc.DecreaseLife(5f);
             }
             else{
-                cc.DecreaseLife(10f);
+                cc.DecreaseLife(15f);
             }
 
             if(cc.isSleeping){

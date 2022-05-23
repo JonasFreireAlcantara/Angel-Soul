@@ -10,7 +10,7 @@ public class CassielSword : MonoBehaviour
         if(other.gameObject.CompareTag(Tag.ENEMY)){
             if(!isHitting && isAttacking){
                 isHitting = true;
-                other.gameObject.GetComponent<FighterControllerBase>().DecreaseLife(10f);
+                other.gameObject.GetComponent<FighterControllerBase>().DecreaseLife(15f);
             }
            
         }

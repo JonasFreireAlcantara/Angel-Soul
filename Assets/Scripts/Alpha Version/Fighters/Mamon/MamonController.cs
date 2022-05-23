@@ -16,7 +16,9 @@ public class MamonController : EnemyControllerBase
 
     // Start is called before the first frame update
     public void Awake()
-    {
+    {   
+        FindObjectOfType<AudioManager>().StopIntro("DEEP_TEMPLE_intro");
+        FindObjectOfType<AudioManager>().StopLoop("DEEP_TEMPLE_loop");
         FindObjectOfType<AudioManager>().IntroPlay("Mammon_intro");
         FindObjectOfType<AudioManager>().LoopPlay("Mammon_loop");
     }

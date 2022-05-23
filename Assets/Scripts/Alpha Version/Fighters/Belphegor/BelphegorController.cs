@@ -75,13 +75,13 @@ public class BelphegorController : EnemyControllerBase
     }
 
     void HabilityOne(){
-        if (!habilityOneinCooldown && spellBar.GetValue() > 5f && playerLanded){
+        if (!habilityOneinCooldown && spellBar.GetValue() > 15f){
             habilityOneLastCast = Time.time;
-            animator.SetTrigger("attack");
-            this.gameObject.GetComponent<CastHability>().Cast(isFlipped ? -1 : 1, player.transform, 1);
+            animator.SetTrigger("cast");
+            this.gameObject.GetComponent<CastHability>().Cast(isFlipped ? 1 : -1, player.transform, 1);
 
             habilityOneinCooldown = true;
-            DecreaseSpell(5f);
+            DecreaseSpell(15f);
             
         }
         else{
