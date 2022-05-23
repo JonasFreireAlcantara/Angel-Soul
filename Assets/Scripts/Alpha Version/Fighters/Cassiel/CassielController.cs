@@ -90,7 +90,7 @@ public class CassielController : FighterControllerBase
     }
 
     private void SwordAttack() {
-        if (Input.GetKeyDown(KeyCode.S) && canAttack) {
+        if (Input.GetKeyDown(KeyCode.T) && canAttack) {
             lastAttack = Time.time;
             animator.SetTrigger("attack");
             canAttack = false;
@@ -108,7 +108,7 @@ public class CassielController : FighterControllerBase
     }
 
     public void Defense() {
-        if (Input.GetKey(KeyCode.T) && numberOfAvailableJumps == 2) {
+        if (Input.GetKey(KeyCode.Y) && numberOfAvailableJumps == 2) {
             isDefending = true;
             animator.SetBool("defense", true);
         } else {
