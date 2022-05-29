@@ -4,6 +4,13 @@ using UnityEngine;
 
 public class CassielSword : MonoBehaviour
 {
+    public GameObject hitPrefab;
+
+    void Start()
+    {
+        hitPrefab = GameObject.FindGameObjectWithTag(Tag.PLAYER).GetComponent<CassielController>().hitPrefab;
+    }
+
     private bool isHitting = false;
     private bool isAttacking = true;
     public void OnTriggerEnter2D(Collider2D other) {

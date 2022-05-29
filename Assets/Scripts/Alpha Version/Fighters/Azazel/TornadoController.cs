@@ -44,4 +44,13 @@ public class TornadoController : MonoBehaviour
         Vector2 newPosition = Vector2.MoveTowards(transform.position, target, speed * Time.fixedDeltaTime);
         transform.position = newPosition;
     }
+
+    public void OnTriggerStay2D(Collider2D collider2D)
+    {
+        if (collider2D.gameObject.CompareTag(Tag.PLAYER))
+        {
+            CassielController player = collider2D.gameObject.GetComponent<CassielController>();
+            player.DecreaseLife(amountOfDamagePerFrame);
+        }
+    }
 }

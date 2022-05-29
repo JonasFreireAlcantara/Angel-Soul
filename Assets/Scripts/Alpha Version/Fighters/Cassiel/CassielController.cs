@@ -6,16 +6,12 @@ public class CassielController : FighterControllerBase
 {   
     //Controle de Ataques
     public GameObject sword;
+    public GameObject hitPrefab;
     private bool canAttack = true;
     private float lastAttack = -1;
 
     private float lastJump = -1;
 
-    //Controle da Magia
-    // public GameObject spellLaunchPoint;
-    // public GameObject spellOne;
-    // private bool spellOneEnable = true;
-    // private float lastSpellOne = -1;
     private int numberOfAvailableJumps = 2;
     public bool isDefending = false;
 
