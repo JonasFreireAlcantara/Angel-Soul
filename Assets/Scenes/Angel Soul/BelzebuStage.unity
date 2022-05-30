@@ -23571,7 +23571,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   life: 500
   spell: 50
-  speed: 250
+  speed: 650
   jumpForce: 12.5
   isDefending: 0
   animator: {fileID: 7239964069970913540}

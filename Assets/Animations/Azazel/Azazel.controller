@@ -385,7 +385,7 @@ AnimatorStateTransition:
   m_Conditions:
   - m_ConditionMode: 3
     m_ConditionEvent: distanceToPlayer
-    m_EventTreshold: 8
+    m_EventTreshold: 12
   - m_ConditionMode: 2
     m_ConditionEvent: tornadoAttacking
     m_EventTreshold: 0
