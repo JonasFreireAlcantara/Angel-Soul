@@ -13,7 +13,6 @@ public class CassielController : FighterControllerBase
     private float lastJump = -1;
 
     private int numberOfAvailableJumps = 2;
-    public bool isDefending = false;
 
     public bool isSleeping = false;
     private float timeSleeped;
@@ -123,7 +122,6 @@ public class CassielController : FighterControllerBase
     public void AwakeFromSleep(){
         isSleeping = false;
         timeToSleep = 0;
-
     }
-    
+
 }

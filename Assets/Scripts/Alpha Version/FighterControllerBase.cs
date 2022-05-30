@@ -16,6 +16,7 @@ public class FighterControllerBase : MonoBehaviour
     public float jumpForce;
     protected float direction = 1f;
     protected bool isGrounded = false;
+    public bool isDefending = false;
 
     protected new Rigidbody2D rigidbody2D;
     public Animator animator;
@@ -84,8 +85,14 @@ public class FighterControllerBase : MonoBehaviour
         healthBar.SetValue(life);
     }
 
-    public void DecreaseSpell(float value) {
-        spell -= value;
+    virtual public void DecreaseSpell(float value) {
+        float factor = 1f;
+        if (isDefending)
+        {
+            factor = 0.3f;
+        }
+
+        spell -= value * factor;
         spellBar.SetValue(spell);
     }
 

@@ -11,6 +11,7 @@ public class TornadoController : MonoBehaviour
     public float speed;
     public float amountOfDamagePerFrame;
 
+    private bool isActivated = false;
     private int initialFramesToLive;
 
     void Start()
@@ -27,6 +28,7 @@ public class TornadoController : MonoBehaviour
         if (framesToLive <= 0)
         {
             animator.SetTrigger("finalizeTornado");
+            isActivated = false;
         }
     }
 
@@ -35,6 +37,7 @@ public class TornadoController : MonoBehaviour
         framesToLive = initialFramesToLive;
         transform.position = new Vector2(enemyTransform.position.x, enemyTransform.position.y + 2.8f);
         animator.SetTrigger("tornado");
+        isActivated = true;
         animator.ResetTrigger("finalizeTornado");
     }
 
@@ -47,7 +50,7 @@ public class TornadoController : MonoBehaviour
 
     public void OnTriggerStay2D(Collider2D collider2D)
     {
-        if (collider2D.gameObject.CompareTag(Tag.PLAYER))
+        if (collider2D.gameObject.CompareTag(Tag.PLAYER) && isActivated)
         {
             CassielController player = collider2D.gameObject.GetComponent<CassielController>();
             player.DecreaseLife(amountOfDamagePerFrame);

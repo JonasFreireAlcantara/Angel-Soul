@@ -27,6 +27,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Angel Soul/FULLMOON_Stage.unity
     guid: 587612901a98ec142b816d2f7fbd32ee
   - enabled: 1
+    path: Assets/Scenes/Angel Soul/BelzebuStage.unity
+    guid: b9ff02b4e68a78552b60dee280f4d332
+  - enabled: 1
     path: Assets/Scenes/Angel Soul/Final_STAGE.unity
     guid: 6395eba149297be4ca246e38d9b798c1
   - enabled: 1

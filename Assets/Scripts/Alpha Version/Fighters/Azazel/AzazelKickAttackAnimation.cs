@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class AzazelTornadoStartAnimation : StateMachineBehaviour
+public class AzazelKickAttackAnimation : StateMachineBehaviour
 {
     // OnStateEnter is called when a transition starts and the state machine starts to evaluate this state
     //override public void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
@@ -19,12 +19,7 @@ public class AzazelTornadoStartAnimation : StateMachineBehaviour
     // OnStateExit is called when a transition ends and the state machine finishes evaluating this state
     override public void OnStateExit(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
-        animator.SetBool("tornadoAttacking", true);
-        GameObject.FindGameObjectWithTag(Tag.ENEMY).GetComponent<AzazelController>()
-            .tornadoController
-            .Activate();
-        GameObject.FindGameObjectWithTag(Tag.ENEMY).GetComponent<AzazelController>()
-            .DecreaseSpell(40f);
+       animator.ResetTrigger("kickAttack");
     }
 
     // OnStateMove is called right after Animator.OnAnimatorMove()

@@ -12,8 +12,8 @@ public class LucipherController : EnemyControllerBase
 
     public void Awake()
     {
-        FindObjectOfType<AudioManager>().StopIntro("Fullmoon_intro");
-        FindObjectOfType<AudioManager>().StopLoop("Fullmoon_loop");
+        FindObjectOfType<AudioManager>().StopIntro("Sensation_intro");
+        FindObjectOfType<AudioManager>().StopLoop("sensation_loop");
         FindObjectOfType<AudioManager>().IntroPlay("FINAL_STAGE_intro");
         FindObjectOfType<AudioManager>().LoopPlay("FINAL_STAGE_loop");
     }

@@ -15,7 +15,7 @@ public class TrapActivator : MonoBehaviour
             this.gameObject.GetComponent<BoxCollider2D>().enabled = true;
         }
     }
-    private void OnTriggerEnter2D(Collision2D other) {
+    private void OnTriggerEnter2D(Collider2D other) {
         if(other.gameObject.CompareTag(Tag.PLAYER)){
             this.gameObject.GetComponent<BoxCollider2D>().enabled = false;
             
